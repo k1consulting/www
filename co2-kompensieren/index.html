@@ -1,0 +1,1567 @@
+<!DOCTYPE html><html lang="de-AT"><head >	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>CO2 kompensieren &#8211; Klimaneutralität BOKU</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://www.googletagmanager.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Klimaneutralität BOKU &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Klimaneutralität BOKU &raquo; Kommentar-Feed" href="../comments/feed/index.html" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.8.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script
+				src="https://www.googletagmanager.com/gtag/js?id=G-TZQMV7KRL6"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/plain" data-cli-class="cli-blocker-script"  data-cli-script-type="analytics" data-cli-block="true"  data-cli-element-position="head">
+				var mi_version = '8.8.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-TZQMV7KRL6',
+														];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-TZQMV7KRL6', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='jupiterx-child-css'  href='../wp-content/themes/jupiterx-child/assets/css/style.css@ver=6.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min.css@ver=6.0.1.css' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<link rel='stylesheet' id='jet-engine-frontend-css'  href='../wp-content/plugins/jet-engine/assets/css/frontend.css@ver=3.0.2.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('../index.html@p=929.html');--wp--preset--duotone--grayscale: url('../index.html@p=929.html');--wp--preset--duotone--purple-yellow: url('../index.html@p=929.html');--wp--preset--duotone--blue-red: url('../index.html@p=929.html');--wp--preset--duotone--midnight: url('../index.html@p=929.html');--wp--preset--duotone--magenta-yellow: url('../index.html@p=929.html');--wp--preset--duotone--purple-green: url('../index.html@p=929.html');--wp--preset--duotone--blue-orange: url('../index.html@p=929.html');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='cookie-law-info-css'  href='../wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css@ver=2.1.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='../wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css@ver=2.1.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='trp-floater-language-switcher-style-css'  href='../wp-content/plugins/translatepress-multilingual/assets/css/trp-floater-language-switcher.css@ver=2.3.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='trp-language-switcher-style-css'  href='../wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css@ver=2.3.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-css'  href='../wp-content/uploads/jupiterx/compiler/jupiterx/71da00e.css@ver=2.0.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-all-css'  href='../wp-content/plugins/jet-menu/assets/public/lib/font-awesome/css/all.min.css@ver=5.12.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-v4-shims-css'  href='../wp-content/plugins/jet-menu/assets/public/lib/font-awesome/css/v4-shims.min.css@ver=5.12.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-menu-public-styles-css'  href='../wp-content/plugins/jet-menu/assets/public/css/public.css@ver=2.2.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-elements-dynamic-styles-css'  href='../wp-content/uploads/jupiterx/compiler/jupiterx-elements-dynamic-styles/577e23f.css@ver=2.0.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-css'  href='../wp-content/plugins/jet-elements/assets/css/jet-elements.css@ver=2.6.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-skin-css'  href='../wp-content/plugins/jet-elements/assets/css/jet-elements-skin.css@ver=2.6.6.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css@ver=5.16.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='../wp-content/plugins/elementor/assets/css/frontend-legacy.min.css@ver=3.7.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='../wp-content/plugins/elementor/assets/css/frontend.min.css@ver=3.7.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css@ver=4.7.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-core-raven-frontend-css'  href='../wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css@ver=6.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-491-css'  href='../wp-content/uploads/elementor/css/post-491.css@ver=1661521558.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-tabs-frontend-css'  href='../wp-content/plugins/jet-tabs/assets/css/jet-tabs-frontend.css@ver=2.1.17.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-tricks-frontend-css'  href='../wp-content/plugins/jet-tricks/assets/css/jet-tricks-frontend.css@ver=1.4.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flatpickr-css'  href='../wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css@ver=4.1.4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='../wp-content/uploads/elementor/css/global.css@ver=1661521559.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-929-css'  href='../wp-content/uploads/elementor/css/post-929.css@ver=1661534632.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ms-main-css'  href='../wp-content/plugins/masterslider/public/assets/css/masterslider.main.css@ver=3.5.9.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ms-custom-css'  href='../wp-content/uploads/masterslider/custom.css@ver=1.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-464-css'  href='../wp-content/uploads/elementor/css/post-464.css@ver=1661522032.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-111-css'  href='../wp-content/uploads/elementor/css/post-111.css@ver=1661521561.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-65-css'  href='../wp-content/uploads/elementor/css/post-65.css@ver=1661521562.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css@ver=5.15.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css@ver=5.15.3.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.min.js@ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js@ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/masterslider/includes/modules/elementor/assets/js/elementor-widgets.js@ver=3.5.9' id='masterslider-elementor-widgets-js'></script>
+<script type="text/plain" data-cli-class="cli-blocker-script"  data-cli-script-type="analytics" data-cli-block="true"  data-cli-element-position="head" src='../wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js@ver=8.8.2' id='monsterinsights-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at","hash_tracking":"false","ua":"","v4_id":"G-TZQMV7KRL6"};/* ]]> */
+</script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#5ab1bb","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#5ab1bb","button_1_button_hover":"#488e96","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#5ab1bb","button_7_button_hover":"#488e96","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#3a3e54","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js@ver=2.1.2' id='cookie-law-info-js'></script>
+<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=G-TZQMV7KRL6' async='async' id='jupiterx-gtag-script-js'></script>
+<script type='text/javascript' id='jupiterx-gtag-script-js-after'>
+	
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+					gtag('config', 'G-TZQMV7KRL6', { 'anonymize_ip': true });
+			
+	
+</script>
+<script type='text/javascript' src='../wp-content/themes/jupiterx/lib/assets/dist/js/utils.min.js@ver=2.0.5' id='jupiterx-utils-js'></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/929" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php@rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.1" />
+<link rel="canonical" href="../index.html@p=929.html" />
+<link rel='shortlink' href='../index.html@p=929.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed@url=https%253A%252F%252Fxn--klimaneutralitt-elb.boku.ac.at%252Fco2-kompensieren%252F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed@url=https%253A%252F%252Fxn--klimaneutralitt-elb.boku.ac.at%252Fco2-kompensieren%252F&amp;format=xml" />
+<script>var ms_grabbing_curosr='https://xn--klimaneutralitt-elb.boku.ac.at/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='https://xn--klimaneutralitt-elb.boku.ac.at/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 3.5.9 - Responsive Touch Image Slider" />
+<link rel="alternate" hreflang="de-AT" href="../index.html@p=929.html"/>
+<link rel="alternate" hreflang="en-GB" href="../en/index.html@p=929.html"/>
+<link rel="alternate" hreflang="de" href="../index.html@p=929.html"/>
+<link rel="alternate" hreflang="en" href="../en/index.html@p=929.html"/>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="../wp-content/uploads/2020/05/cropped-Favicon2-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2020/05/cropped-Favicon2-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../wp-content/uploads/2020/05/cropped-Favicon2-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://xn--klimaneutralitt-elb.boku.ac.at/wp-content/uploads/2020/05/cropped-Favicon2-1-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.elementor-element-66f0157 .raven-nav-menu-main .raven-nav-menu > li > a.raven-menu-item {
+text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+
+.elementor-element.elementor-element-0210aa8 .raven-nav-menu-main .raven-nav-menu > li > a.raven-menu-item {
+text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+
+.footer-icon-transition svg {
+	    transition: all .2s;
+}
+strong {
+	font-weight: 600;
+}
+
+.front-page-header-shadow {
+	text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+.compensation-mask {
+	min-height: 200px;
+}
+.jupiterx-main-content {
+    padding: 0 0 24px 0;
+}
+dfn {
+    font-style: italic;
+    font-style: inherit;
+    border-bottom: 1px dotted;
+}
+#wissensnetzwerk-downloads .raven-tabs-title {
+	border-radius: 5px 5px 0 0;
+}
+
+#wissensnetzwerk-downloads  .raven-tabs-content {
+  border-radius: 0 0 5px 5px;	
+}		</style>
+		</head><body class="page-template-default page page-id-929 no-js _masterslider _msp_version_3.5.9 translatepress-de_AT jet-desktop-menu-active elementor-default elementor-kit-491 elementor-page elementor-page-929 jupiterx-header-sticky jupiterx-header-overlapped" itemscope="itemscope" itemtype="http://schema.org/WebPage"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><a class="jupiterx-a11y jupiterx-a11y-skip-navigation-link" href="../index.html@p=929.html#jupiterx-main">Skip to content</a><div class="jupiterx-site"><header class="jupiterx-header jupiterx-header-custom jupiterx-header-sticky-custom" data-jupiterx-settings="{&quot;breakpoint&quot;:&quot;767.98&quot;,&quot;template&quot;:&quot;464&quot;,&quot;stickyTemplate&quot;:&quot;111&quot;,&quot;behavior&quot;:&quot;sticky&quot;,&quot;offset&quot;:&quot;180&quot;,&quot;overlap&quot;:&quot;desktop&quot;}" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">		<div data-elementor-type="header" data-elementor-id="464" class="elementor elementor-464">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-5ec3678 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="5ec3678" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;983a39c&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d80534a" data-id="d80534a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b3ca446 elementor-widget elementor-widget-raven-site-logo" data-id="b3ca446" data-element_type="widget" data-widget_type="raven-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			<div class="raven-site-logo">
+									<a class="raven-site-logo-link" href="../index.html">
+								<picture><img class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" alt="Klimaneutralität BOKU" data-no-lazy="1" src='../img/logo.png'></picture>									</a>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6cd69e0" data-id="6cd69e0" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-66f0157 raven-nav-menu-align-right raven-breakpoint-tablet raven-nav-menu-stretch raven-mobile-nav-menu-align-left elementor-widget elementor-widget-raven-nav-menu" data-id="66f0157" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;mobile_layout&quot;:&quot;dropdown&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_opening_position&quot;:&quot;bottom&quot;}" data-widget_type="raven-nav-menu.default">
+				<div class="elementor-widget-container">
+					<nav class="raven-nav-menu-main raven-nav-menu-horizontal raven-nav-menu-tablet-horizontal raven-nav-menu-mobile-horizontal raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile">
+			<ul id="menu-66f0157" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="../index.html@p=653.html" class="raven-menu-item raven-link-item ">CO<sub>2</sub> -Kompensation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2453"><a href="../index.html@p=2436.html" class="raven-menu-item raven-link-item ">BOKU Klimaschutzprojekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="../index.html@p=649.html" class="raven-menu-item raven-link-item ">Beratung&#038;Forschung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="../index.html@p=651.html" class="raven-menu-item raven-link-item ">Projekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-669"><a href="../index.html@p=647.html" class="raven-menu-item raven-link-item ">Über uns</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="../index.html@p=2606.html" class="raven-submenu-item raven-link-item ">Klimawissen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="../index.html@p=655.html" class="raven-submenu-item raven-link-item ">Kontakt</a></li>
+</ul>
+</li>
+</ul>		</nav>
+
+		<div class="raven-nav-menu-toggle">
+
+						<div class="raven-nav-menu-toggle-button ">
+								<span class="fa fa-bars"></span>
+								</div>
+
+		</div>
+		<nav class="raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile raven-nav-menu-mobile raven-nav-menu-dropdown">
+									<div class="raven-container">
+				<ul id="menu-mobile-66f0157" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="../index.html@p=653.html" class="raven-menu-item raven-link-item ">CO<sub>2</sub> -Kompensation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2453"><a href="../index.html@p=2436.html" class="raven-menu-item raven-link-item ">BOKU Klimaschutzprojekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="../index.html@p=649.html" class="raven-menu-item raven-link-item ">Beratung&#038;Forschung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="../index.html@p=651.html" class="raven-menu-item raven-link-item ">Projekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-669"><a href="../index.html@p=647.html" class="raven-menu-item raven-link-item ">Über uns</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="../index.html@p=2606.html" class="raven-submenu-item raven-link-item ">Klimawissen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="../index.html@p=655.html" class="raven-submenu-item raven-link-item ">Kontakt</a></li>
+</ul>
+</li>
+</ul>			</div>
+		</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+				<div data-elementor-type="header" data-elementor-id="111" class="elementor elementor-111">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-284b6c5 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="284b6c5" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;983a39c&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}],&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f09cf84" data-id="f09cf84" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-379fb1d elementor-widget elementor-widget-raven-site-logo" data-id="379fb1d" data-element_type="widget" data-widget_type="raven-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper">
+			<div class="raven-site-logo raven-site-logo-customizer">
+									<a class="raven-site-logo-link" href="../index.html">
+								<img img/src="img/logo.png" />									</a>
+							</div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2dcb0bd" data-id="2dcb0bd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5898f48 raven-nav-menu-align-right raven-breakpoint-tablet raven-nav-menu-stretch raven-mobile-nav-menu-align-left elementor-widget elementor-widget-raven-nav-menu" data-id="5898f48" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;mobile_layout&quot;:&quot;dropdown&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_opening_position&quot;:&quot;bottom&quot;}" data-widget_type="raven-nav-menu.default">
+				<div class="elementor-widget-container">
+					<nav class="raven-nav-menu-main raven-nav-menu-horizontal raven-nav-menu-tablet-horizontal raven-nav-menu-mobile-horizontal raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile">
+			<ul id="menu-5898f48" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="../index.html@p=653.html" class="raven-menu-item raven-link-item ">CO<sub>2</sub> -Kompensation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2453"><a href="../index.html@p=2436.html" class="raven-menu-item raven-link-item ">BOKU Klimaschutzprojekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="../index.html@p=649.html" class="raven-menu-item raven-link-item ">Beratung&#038;Forschung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="../index.html@p=651.html" class="raven-menu-item raven-link-item ">Projekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-669"><a href="../index.html@p=647.html" class="raven-menu-item raven-link-item ">Über uns</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="../index.html@p=2606.html" class="raven-submenu-item raven-link-item ">Klimawissen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="../index.html@p=655.html" class="raven-submenu-item raven-link-item ">Kontakt</a></li>
+</ul>
+</li>
+</ul>		</nav>
+
+		<div class="raven-nav-menu-toggle">
+
+						<div class="raven-nav-menu-toggle-button ">
+								<span class="fa fa-bars"></span>
+								</div>
+
+		</div>
+		<nav class="raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile raven-nav-menu-mobile raven-nav-menu-dropdown">
+									<div class="raven-container">
+				<ul id="menu-mobile-5898f48" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="../index.html@p=653.html" class="raven-menu-item raven-link-item ">CO<sub>2</sub> -Kompensation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2453"><a href="../index.html@p=2436.html" class="raven-menu-item raven-link-item ">BOKU Klimaschutzprojekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-668"><a href="../index.html@p=649.html" class="raven-menu-item raven-link-item ">Beratung&#038;Forschung</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-667"><a href="../index.html@p=651.html" class="raven-menu-item raven-link-item ">Projekte</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-669"><a href="../index.html@p=647.html" class="raven-menu-item raven-link-item ">Über uns</a>
+<ul class="0 sub-menu raven-submenu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="../index.html@p=2606.html" class="raven-submenu-item raven-link-item ">Klimawissen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="../index.html@p=655.html" class="raven-submenu-item raven-link-item ">Kontakt</a></li>
+</ul>
+</li>
+</ul>			</div>
+		</nav>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+		</header><main id="jupiterx-main" class="jupiterx-main"><div class="jupiterx-main-header"><div class="container"><h1 class="jupiterx-main-header-post-title" itemprop="headline">CO2 kompensieren</h1></div></div><div class="jupiterx-main-content"><div class="container"><div class="row"><div id="jupiterx-primary" class="jupiterx-primary col-lg-12"><div class="jupiterx-content" role="main" itemprop="mainEntityOfPage"><article id="929" class="jupiterx-post post-929 page type-page status-publish hentry" itemscope="itemscope" itemtype="http://schema.org/CreativeWork"><header class="jupiterx-post-header"></header><div class="jupiterx-post-body" itemprop="articleBody"><div class="jupiterx-post-content clearfix" itemprop="text">		<div data-elementor-type="wp-page" data-elementor-id="929" class="elementor elementor-929">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-a7a5d2b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a7a5d2b" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;a1759b9&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c1fa3d" data-id="1c1fa3d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2a1f82b elementor-widget elementor-widget-shortcode" data-id="2a1f82b" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><noscript><strong>We're sorry but kompensations-app doesn't work properly without JavaScript enabled. Please enable it
+    to continue.</strong></noscript>
+<div id=app></div></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+		</div></div></article></div></div></div></div></div></main><footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">		<div data-elementor-type="footer" data-elementor-id="65" class="elementor elementor-65">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-ff6d166 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="ff6d166" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;481aab2&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}]}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-e8c72eb" data-id="e8c72eb" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-31ea98b footer-icon-transition elementor-widget elementor-widget-jet-inline-svg" data-id="31ea98b" data-element_type="widget" id="footer_co2_icon" data-widget_type="jet-inline-svg.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-inline-svg jet-elements"><div class="jet-inline-svg__wrapper"><div class="jet-inline-svg jet-inline-svg--custom-width jet-inline-svg--custom-color"><div class="jet-inline-svg__inner"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g id="Zero_emission">
+	<path d="M462.8,333.8l-30.9-8.3c-55.5-14.8-112.5,18.1-127.4,73.5l-7.6,28.2l-1.2,0.9c-12.1,9.1-22.8,19.8-31.8,31.9V355.3
+		l20.3-20.3c40.6-40.6,40.6-106.5,0-147.1l-22.6-22.6c-3.2-3-8.1-3-11.3,0L227.7,188c-40.6,40.6-40.6,106.5,0,147.1l20.3,20.3V460
+		c-9.1-12.1-19.8-22.8-31.8-31.9l-1.2-0.9l-7.6-28.2c-14.9-55.4-71.9-88.3-127.4-73.5l-30.9,8.3c-4.3,1.1-6.8,5.5-5.7,9.8l8.3,30.9
+		c12.2,45.4,53.3,77,100.3,77.1c9.2,0,18.3-1.2,27.1-3.6l27.1-7.3l0.3,0.2c17.8,13.4,32.3,30.7,42.3,50.6c2,4,6.8,5.6,10.7,3.6
+		c0,0,0,0,0,0c1.9-1.4,3.4-3.2,4.4-5.2l0,0c10-19.2,24.1-36,41.4-49l0.3-0.2l27.1,7.3c8.8,2.4,17.9,3.6,27.1,3.6
+		c47-0.1,88.1-31.7,100.3-77.1l8.3-30.9C469.6,339.3,467.1,334.9,462.8,333.8z M84.2,341c46.9-12.5,95.2,15.3,107.8,62.2l3.3,12.3
+		L72,344.3L84.2,341z M175,432.6c-46.9,12.6-95.2-15.2-107.8-62.2c0,0,0,0,0-0.1L64,358.1l123.3,71.2L175,432.6z M298.7,261.5
+		c0.1,23.3-9.2,45.8-25.8,62.2l-9,9V190.3l9,9C289.5,215.7,298.8,238.1,298.7,261.5z M239,323.7c-34.4-34.4-34.4-90.1,0-124.4l9-9
+		v142.4L239,323.7z M427.8,340.9l12.2,3.3l-123.3,71.2l3.3-12.2C332.6,356.3,380.8,328.4,427.8,340.9z M403.8,423.8
+		c-20.2,11.7-44.2,14.9-66.8,8.8l-12.3-3.3l123.3-71.2l-3.3,12.2C438.8,392.9,424,412.1,403.8,423.8L403.8,423.8z"/>
+	<path d="M360,192c0-4.4-3.6-8-8-8h-40c-4.4,0-8,3.6-8,8s3.6,8,8,8h40C356.4,200,360,196.4,360,192z"/>
+	<path d="M392,200c4.4,0,8-3.6,8-8s-3.6-8-8-8h-8c-4.4,0-8,3.6-8,8s3.6,8,8,8H392z"/>
+	<path d="M368,232h-32c-4.4,0-8-3.6-8-8s3.6-8,8-8h32c30.9,0,56-25.1,56-56s-25.1-56-56-56c-7.4,0-14.8,1.5-21.6,4.3
+		c-4.1,1.7-8.8-0.2-10.5-4.3c-0.3-0.7-0.5-1.4-0.6-2.1c-5.6-43.8-45.7-74.8-89.6-69.1c-36.1,4.6-64.5,33-69.1,69.1
+		c-0.5,4.4-4.5,7.5-8.9,7c-0.7-0.1-1.5-0.3-2.1-0.6c-6.8-2.9-14.2-4.4-21.6-4.3c-30.9,0-56,25.1-56,56s25.1,56,56,56h32
+		c4.4,0,8,3.6,8,8s-3.6,8-8,8h-32c-39.8,0-72-32.3-72-72s32.3-72,72-72c6.2,0,12.4,0.8,18.4,2.4C174.4,38.7,226,6.5,277.6,18.5
+		c35.8,8.3,63.7,36.2,71.9,71.9c38.4-10.2,77.9,12.7,88,51.2c10.2,38.4-12.7,77.9-51.2,88C380.4,231.2,374.2,232,368,232z"/>
+</g>
+</svg>
+</div></div></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-f37d39f" data-id="f37d39f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-55e6149 elementor-widget elementor-widget-button" data-id="55e6149" data-element_type="widget" id="footer_co2_button" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="index.html@action=compensate-co2.html" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">CO<sub>2</sub> kompensieren</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-b9c690f" data-id="b9c690f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-500e058 footer-icon-transition elementor-widget elementor-widget-jet-inline-svg" data-id="500e058" data-element_type="widget" id="footer_flight_icon" data-widget_type="jet-inline-svg.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-inline-svg jet-elements"><div class="jet-inline-svg__wrapper"><div class="jet-inline-svg jet-inline-svg--custom-width jet-inline-svg--custom-color"><div class="jet-inline-svg__inner"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 491.368 491.368" style="enable-background:new 0 0 491.368 491.368;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M486.442,78.201c-7.528-13.032-22.008-20.088-36.928-17.936l-8.624,1.24c-8.752,1.272-17.552,0.744-26.112-1.552
+			c-20.92-5.6-42.752-2.728-61.504,8.096L112.986,206.785l-73.728-36.456c-2.408-1.192-5.232-1.096-7.544,0.24l-27.712,16
+			c-3.832,2.208-5.136,7.104-2.928,10.928l60,103.92c1.744,3.016,5.248,4.552,8.656,3.816l155.64-34.432
+			c0.8-0.176,1.568-0.48,2.272-0.88l20.784-12l56,96.992c1.488,2.568,4.168,4,6.936,4c1.352,0,2.728-0.344,3.992-1.072l48.496-28
+			c2.984-1.72,4.528-5.16,3.832-8.536l-24.208-118.264l129.568-74.808c8.472-4.888,14.528-12.792,17.064-22.24
+			C492.634,96.545,491.338,86.673,486.442,78.201z M18.922,196.425l17.08-9.856l60.328,29.824l-49.408,28.528L18.922,196.425z
+			 M474.65,101.857c-1.424,5.32-4.832,9.768-9.608,12.52l-134.56,77.688c-2.984,1.72-4.528,5.16-3.832,8.536l24.2,118.272
+			l-36.576,21.12l-56-96.992c-1.064-1.832-2.808-3.176-4.856-3.728c-0.68-0.184-1.376-0.272-2.072-0.272
+			c-1.392,0-2.776,0.36-4,1.072l-26.648,15.384L71.994,288.345l-17.064-29.56l62.352-36l244-140.872
+			c13.728-7.928,29.512-10.472,44.92-7.464l-17.648,10.184l8,13.856l34.64-20l-0.248-0.424c4.072,0.032,8.144-0.144,12.224-0.728
+			l8.624-1.24c8.376-1.232,16.552,2.752,20.8,10.104C475.346,90.977,476.082,96.537,474.65,101.857z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="8.914" y="418.209" width="480" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="356.841" y="99.609" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -4.9361 196.7924)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="329.154" y="115.568" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -16.6216 185.0882)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="301.419" y="131.591" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -28.3453 173.3701)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="273.718" y="147.574" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -40.0446 161.6611)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="245.989" y="163.58" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -51.7596 149.9442)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="218.274" y="179.579" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -63.4687 138.2322)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="190.559" y="195.578" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -75.1778 126.5201)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="162.852" y="211.577" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -86.8854 114.8112)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="135.113" y="227.576" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -98.5981 103.088)" width="16" height="16"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</div></div></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-9134143" data-id="9134143" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-cdd3c56 elementor-widget elementor-widget-button" data-id="cdd3c56" data-element_type="widget" id="footer_flight_button" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="index.html@action=compensate-flight.html" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Flug kompensieren</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3fff81f" data-id="3fff81f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-d3b868d footer-icon-transition elementor-widget elementor-widget-jet-inline-svg" data-id="d3b868d" data-element_type="widget" id="footer_donation_icon" data-widget_type="jet-inline-svg.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-inline-svg jet-elements"><div class="jet-inline-svg__wrapper"><div class="jet-inline-svg jet-inline-svg--custom-width jet-inline-svg--custom-color"><div class="jet-inline-svg__inner"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 485.45 485.45" style="enable-background:new 0 0 485.45 485.45;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M473.405,337.474c-5.912-4.984-13.704-7.072-21.304-5.752l-158.656,27.592l-45.064-45.064
+			c-1.496-1.504-3.528-2.344-5.656-2.344h-80c0-4.424-3.576-8-8-8h-32h-112c-4.424,0-8,3.576-8,8v128c0,4.424,3.576,8,8,8h112h32
+			c4.424,0,8-3.576,8-8h22.112l85.528,42.768c3.696,1.848,7.704,2.776,11.696,2.776c4.552,0,9.096-1.192,13.168-3.568
+			l174.528-101.816c8-4.664,12.968-13.312,12.968-22.576C482.725,349.754,479.325,342.458,473.405,337.474z M114.725,431.906h-96
+			v-112h96V431.906z M146.725,431.906h-16v-112h16V431.906z M461.693,366.242l-174.52,101.816c-2.96,1.728-6.568,1.84-9.648,0.304
+			l-87.216-43.608c-1.112-0.56-2.344-0.848-3.584-0.848h-24v-96h76.688l63.032,63.032c2.72,2.72,4.28,6.488,4.28,10.344
+			c0,8.064-6.56,14.624-14.624,14.624c-3.848,0-7.624-1.56-10.344-4.28l-41.376-41.376l-11.312,11.312l41.376,41.376
+			c5.784,5.784,13.472,8.968,21.656,8.968c16.88,0,30.624-13.744,30.624-30.624c0-8.176-3.184-15.872-8.968-21.656l-6.48-6.48
+			l147.552-25.664c2.984-0.52,5.976,0.296,8.272,2.232c2.304,1.936,3.624,4.768,3.624,7.768
+			C466.725,361.074,464.797,364.434,461.693,366.242z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M210.725,175.906c-22.056,0-40-17.944-40-40c0-4.424-3.576-8-8-8c-4.424,0-8,3.576-8,8c0,22.056-17.944,40-40,40
+			c-4.424,0-8,3.576-8,8s3.576,8,8,8c22.056,0,40,17.944,40,40c0,4.424,3.576,8,8,8c4.424,0,8-3.576,8-8c0-22.056,17.944-40,40-40
+			c4.424,0,8-3.576,8-8S215.149,175.906,210.725,175.906z M162.725,203.082c-4.728-7.84-11.336-14.456-19.176-19.176
+			c7.84-4.728,14.456-11.336,19.176-19.176c4.728,7.84,11.336,14.456,19.176,19.176
+			C174.061,188.634,167.453,195.242,162.725,203.082z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M364.381,2.25c-3-3-8.312-3-11.312,0c-4.84,4.832-118.344,119.392-118.344,205.656c0,75.368,40.56,112,124,112
+			s124-36.632,124-112C482.725,121.642,369.221,7.082,364.381,2.25z M358.725,303.906c-74.696,0-108-29.608-108-96
+			c0-69.232,85.024-164.096,108-188.464c22.984,24.368,108,119.184,108,188.464C466.725,274.298,433.421,303.906,358.725,303.906z"
+			/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M409.493,122.394l-13.528,8.544c17.592,27.84,28.064,52.032,30.296,69.96l15.872-1.968
+			C439.581,178.386,428.597,152.634,409.493,122.394z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M387.949,91.146l-12.832,9.544c3.848,5.176,7.64,10.464,11.296,15.784l13.192-9.064
+			C395.821,101.914,391.925,96.482,387.949,91.146z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</div></div></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-f9e1a0d" data-id="f9e1a0d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ac1d88d elementor-widget elementor-widget-button" data-id="ac1d88d" data-element_type="widget" id="footer_donation_button" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="index.html@action=direct-donation.html" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Direkt spenden</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-45dd618 elementor-widget elementor-widget-html" data-id="45dd618" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script type="text/javascript">
+jQuery('#footer_co2_button').mouseover( function() {
+    jQuery('#footer_co2_icon svg').css('color', '#5AB1BB');
+}).mouseout( function() {
+    jQuery('#footer_co2_icon svg').css('color', '#464646');
+});
+jQuery('#footer_flight_button').mouseover( function() {
+    jQuery('#footer_flight_icon svg').css('color', '#5AB1BB');
+}).mouseout( function() {
+    jQuery('#footer_flight_icon svg').css('color', '#464646');
+});
+jQuery('#footer_donation_button').mouseover( function() {
+    jQuery('#footer_donation_icon svg').css('color', '#5AB1BB');
+}).mouseout( function() {
+    jQuery('#footer_donation_icon svg').css('color', '#464646');
+});
+</script>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4ce99dd elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4ce99dd" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;829d01c&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}],&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;tilt&quot;}">
+					<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"/>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-264baf5" data-id="264baf5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-6e72195 elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="6e72195" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h5 class="raven-heading raven-heading-h5"><span class="raven-heading-title">Navigation</span></h5></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1a0854f elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1a0854f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="../index.html">
+
+											<span class="elementor-icon-list-text">Home</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="../co2-kompensation.html">
+
+											<span class="elementor-icon-list-text">CO<sub>2</sub>-Kompensation</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="../index.html@p=2436.html">
+
+											<span class="elementor-icon-list-text">BOKU Klimaschutzprojekte</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="../beratung.html">
+
+											<span class="elementor-icon-list-text">Beratung</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://xn--klimaneutralitt-elb.boku.ac.at/wissensnetzwerk/">
+
+											<span class="elementor-icon-list-text">Projekte</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="../uber-uns.html">
+
+											<span class="elementor-icon-list-text">Über uns</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="../kontakt.html">
+
+											<span class="elementor-icon-list-text">Kontakt</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1076a5d" data-id="1076a5d" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1bff47d elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="1bff47d" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h5 class="raven-heading raven-heading-h5"><span class="raven-heading-title">Angebote</span></h5></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9b61466 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="9b61466" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://xn--klimaneutralitt-elb.boku.ac.at/co2-kompensationsapp/?action=compensate-co2">
+
+											<span class="elementor-icon-list-text">CO<sub>2</sub> kompensieren</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://xn--klimaneutralitt-elb.boku.ac.at/co2-kompensationsapp/?action=compensate-flight">
+
+											<span class="elementor-icon-list-text">Flug kompensieren</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://xn--klimaneutralitt-elb.boku.ac.at/co2-kompensationsapp/?action=direct-donation">
+
+											<span class="elementor-icon-list-text">Direkt spenden</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-982459c" data-id="982459c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1dc8bb4 elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-raven-heading" data-id="1dc8bb4" data-element_type="widget" data-widget_type="raven-heading.default">
+				<div class="elementor-widget-container">
+					<div class="raven-widget-wrapper"><h5 class="raven-heading raven-heading-h5"><span class="raven-heading-title">Kontakt</span></h5></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-32dda84 elementor-widget elementor-widget-text-editor" data-id="32dda84" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p>Universität für Bodenkultur Wien<br />Dänenstrasse 4<br />1190 Wien, Österreich<br />Tel. <a style="color: #5ab1bb;" href="tel:+431476540">+43/1/47654</a><a href="tel:+43 1 47654-99112">-99112</a><br />co2.kompensation@boku.ac.at</p><p><a href="../kontakt.html#newsletter">Newsletter</a></p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2ce7b53" data-id="2ce7b53" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a0e2d93 elementor-widget elementor-widget-jet-inline-svg" data-id="a0e2d93" data-element_type="widget" data-widget_type="jet-inline-svg.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-inline-svg jet-elements"><div class="jet-inline-svg__wrapper"><a class="jet-inline-svg jet-inline-svg--custom-width" href="../index.html"><div class="jet-inline-svg__inner"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 608.25 245"><defs><style>.cls-1{fill:none;}.cls-2{fill:#5ab1ba;}.cls-3{clip-path:url(../index.html@p=929.html);}.cls-4{fill:#fff;}</style><clipPath id="clip-path"><circle id="SVGID" class="cls-1" cx="122.79" cy="122.32" r="102.97"></circle></clipPath></defs><title>Artboard 3</title><path d="M479.44,227.29h0Z"></path><path d="M413.39,198.29l0,.17,0,0Z"></path><path d="M361.24,200.08a.1.1,0,0,0,.05,0v0Z"></path><path d="M375.24,171.21l.18-.06v0Z"></path><path d="M370.26,200.92h-.1Z"></path><path class="cls-2" d="M258.67,84.29V55.72h11.22q4.44,0,6.72,2a7.14,7.14,0,0,1,1.13,9.12,5.92,5.92,0,0,1-2.88,2.24,7.86,7.86,0,0,1,3.42,2.32,6.48,6.48,0,0,1,1.52,4.46A7.62,7.62,0,0,1,277.13,82a10.39,10.39,0,0,1-6.91,2.26Zm4.15-16.81h6.37q5.43,0,5.43-4.19a3.73,3.73,0,0,0-1.3-3,5.3,5.3,0,0,0-3.63-1.13h-6.87Zm0,3.45v9.9h6.78a6.63,6.63,0,0,0,4.28-1.25,4.49,4.49,0,0,0,1.56-3.72q0-4.94-6.45-4.93Z"></path><path class="cls-2" d="M297.43,55.31a12.24,12.24,0,0,1,9.59,4,15.2,15.2,0,0,1,3.6,10.52,16,16,0,0,1-3.54,10.56q-3.52,4.27-10,4.28a12,12,0,0,1-9.68-4.15A15.74,15.74,0,0,1,283.91,70a15.54,15.54,0,0,1,3.59-10.54Q291.1,55.31,297.43,55.31Zm-.17,3.58a7.71,7.71,0,0,0-6.68,3.1,13.22,13.22,0,0,0-2.24,7.91,13.25,13.25,0,0,0,2.35,8,7.68,7.68,0,0,0,6.57,3.2,8.09,8.09,0,0,0,5.14-1.6,8.76,8.76,0,0,0,2.92-4,16.67,16.67,0,0,0,.86-5.53A13.11,13.11,0,0,0,303.9,62,7.71,7.71,0,0,0,297.26,58.89Z"></path><path class="cls-2" d="M316.45,84.29V55.72h4.19V69.49q.25-.28,5.55-5.67t7.85-8.1h5.22l-12.12,12,12.7,16.52H334.7L324.18,70.48l-3.54,3.24V84.29Z"></path><path class="cls-2" d="M342.14,55.72h4.27V72.9c0,3,.67,5.11,2,6.37a7.1,7.1,0,0,0,5.08,1.89,6.9,6.9,0,0,0,5.2-1.89q1.83-1.89,1.83-6.37V55.72h4.23V72.66q0,12-11.34,12a14.74,14.74,0,0,1-4.34-.6,10.29,10.29,0,0,1-3.55-1.91A8.51,8.51,0,0,1,343,78.49a15.81,15.81,0,0,1-.88-5.59Z"></path><path class="cls-2" d="M258.67,134.56V106h4.2v13.77q.24-.28,5.54-5.67t7.85-8.1h5.22l-12.12,12,12.7,16.52h-5.14L266.4,120.75,262.87,124v10.56Z"></path><path class="cls-2" d="M293.19,113.15a9,9,0,0,1,7.05,3,11.45,11.45,0,0,1,2.65,7.91,11.84,11.84,0,0,1-2.63,7.89,9,9,0,0,1-7.31,3.13,8.89,8.89,0,0,1-7.11-3.07,13,13,0,0,1,0-15.76A9.18,9.18,0,0,1,293.19,113.15Zm4.09,5.38a5,5,0,0,0-4.25-2,4.87,4.87,0,0,0-4.21,2,9.35,9.35,0,0,0-1.46,5.59,9.08,9.08,0,0,0,1.56,5.53,5,5,0,0,0,4.19,2.12,4.88,4.88,0,0,0,4.17-2.06,11.09,11.09,0,0,0,0-11.14Z"></path><path class="cls-2" d="M307.45,134.56V119c0-2.44,0-4.23,0-5.39h3.86a23.91,23.91,0,0,1,.17,3.09,7,7,0,0,1,9.66-2.59,5.36,5.36,0,0,1,2.09,2.63,7.16,7.16,0,0,1,6.62-3.62,6.39,6.39,0,0,1,4.74,1.87q1.88,1.88,1.87,5.82v13.72h-3.94V121.29a6,6,0,0,0-.9-3.37,3.39,3.39,0,0,0-3.05-1.36,4,4,0,0,0-3.47,1.58,7.54,7.54,0,0,0-1.13,4.42v12H320V121.45q0-4.89-3.87-4.89a4,4,0,0,0-3.49,1.71,8.11,8.11,0,0,0-1.19,4.7v11.59Z"></path><path class="cls-2" d="M346.45,142.74h-4v-24c0-2.3,0-4-.05-5.1h3.91a26.19,26.19,0,0,1,.16,3.17q1.94-3.66,6.66-3.66a7.47,7.47,0,0,1,6,2.84,11.5,11.5,0,0,1,2.34,7.56c0,3.61-.86,6.44-2.59,8.46a8.2,8.2,0,0,1-6.53,3.05c-2.82,0-4.79-1-5.92-2.92Zm10.89-19a8.77,8.77,0,0,0-1.41-5.24,4.6,4.6,0,0,0-3.93-2,5,5,0,0,0-4.4,1.89,9.76,9.76,0,0,0-1.35,5.67,10.42,10.42,0,0,0,1.25,5.69,4.65,4.65,0,0,0,4.21,1.91,4.75,4.75,0,0,0,4.19-2.09A10.3,10.3,0,0,0,357.34,123.71Z"></path><path class="cls-2" d="M383.48,124.86H368.93a8.25,8.25,0,0,0,1.48,5,4.68,4.68,0,0,0,3.95,1.91,5,5,0,0,0,3.14-.83,5.18,5.18,0,0,0,1.62-2.22h4.07a11.65,11.65,0,0,1-.94,2.16,9.68,9.68,0,0,1-1.59,2,7.12,7.12,0,0,1-2.67,1.6,11,11,0,0,1-3.76.6,8.23,8.23,0,0,1-7-3.13,12.19,12.19,0,0,1-2.37-7.6,12.55,12.55,0,0,1,2.49-8.06,8.58,8.58,0,0,1,7.13-3.12,9.48,9.48,0,0,1,4.27.91,7.06,7.06,0,0,1,2.86,2.38,11,11,0,0,1,1.48,3.16,13.27,13.27,0,0,1,.47,3.54A14.24,14.24,0,0,1,383.48,124.86Zm-14.43-2.75h10.44a6.73,6.73,0,0,0-1.31-4.21,4.48,4.48,0,0,0-3.74-1.63C371.23,116.27,369.44,118.22,369.05,122.11Z"></path><path class="cls-2" d="M385.66,116.85v-3.21h3.53v-6.08h4v6.08h4.52v3.21h-4.52v11.88a3.91,3.91,0,0,0,.49,2.24,2.17,2.17,0,0,0,1.85.67,6.56,6.56,0,0,0,1.73-.16v3a10.57,10.57,0,0,1-3.25.37,4.73,4.73,0,0,1-3.7-1.29,5.91,5.91,0,0,1-1.15-4v-12.7Z"></path><path class="cls-2" d="M418.49,124.86H403.94a8.25,8.25,0,0,0,1.48,5,4.69,4.69,0,0,0,3.95,1.91,5,5,0,0,0,3.14-.83,5.28,5.28,0,0,0,1.63-2.22h4.06a11,11,0,0,1-.94,2.16,10,10,0,0,1-1.58,2,7.2,7.2,0,0,1-2.67,1.6,11.07,11.07,0,0,1-3.76.6,8.24,8.24,0,0,1-7-3.13,12.19,12.19,0,0,1-2.36-7.6,12.55,12.55,0,0,1,2.48-8.06,8.59,8.59,0,0,1,7.13-3.12,9.56,9.56,0,0,1,4.28.91,7.1,7.1,0,0,1,2.85,2.38,10.72,10.72,0,0,1,1.48,3.16,12.88,12.88,0,0,1,.47,3.54A12.41,12.41,0,0,1,418.49,124.86Zm-14.42-2.75h10.44a6.8,6.8,0,0,0-1.32-4.21,4.48,4.48,0,0,0-3.74-1.63C406.25,116.27,404.45,118.22,404.07,122.11Z"></path><path class="cls-2" d="M423.05,134.56V118.9c0-2.43,0-4.19,0-5.26H427a28.28,28.28,0,0,1,.16,3.29q1.72-3.78,6.45-3.78a6.67,6.67,0,0,1,5.08,2q1.91,2,1.91,6v13.44h-4V121.62q0-5.06-4.23-5.06c-3.45,0-5.18,2.28-5.18,6.82v11.18Z"></path><path class="cls-2" d="M444.46,134.56v-3.2L456.18,117H445v-3.33h15.74V117l-11.55,14.26h12.12l-.57,3.33Z"></path><path class="cls-2" d="M463.82,128.52h4c.54,2.28,2.17,3.41,4.89,3.41s4-1,4-3a2.57,2.57,0,0,0-1-2.15,10.81,10.81,0,0,0-3.76-1.46q-4.37-1-5.86-2.47a5,5,0,0,1-1.5-3.78,5.46,5.46,0,0,1,1.93-4.21q1.94-1.75,5.8-1.75c2.57,0,4.52.6,5.83,1.79a6.32,6.32,0,0,1,2.18,4.29h-3.86c-.47-2-1.91-3-4.32-3a4.11,4.11,0,0,0-2.73.74,2.37,2.37,0,0,0-.84,1.85,2.07,2.07,0,0,0,.9,1.79,11.91,11.91,0,0,0,3.66,1.29q4.56,1.08,6.12,2.65a5.65,5.65,0,0,1,1.56,4.13,5.76,5.76,0,0,1-2.15,4.63,9.41,9.41,0,0,1-6.15,1.79,9.52,9.52,0,0,1-6.16-1.77A7.14,7.14,0,0,1,463.82,128.52Z"></path><path class="cls-2" d="M482.64,116.85v-3.21h3.53v-6.08h4v6.08h4.52v3.21H490.2v11.88a4,4,0,0,0,.49,2.24,2.17,2.17,0,0,0,1.85.67,6.51,6.51,0,0,0,1.73-.16v3a10.52,10.52,0,0,1-3.25.37,4.73,4.73,0,0,1-3.7-1.29,6,6,0,0,1-1.15-4v-12.7Z"></path><path class="cls-2" d="M515.48,124.86H500.93a8.25,8.25,0,0,0,1.48,5,4.67,4.67,0,0,0,3.94,1.91,5,5,0,0,0,3.15-.83,5.18,5.18,0,0,0,1.62-2.22h4.07a11.05,11.05,0,0,1-1,2.16,9.61,9.61,0,0,1-1.58,2,7.12,7.12,0,0,1-2.67,1.6,11,11,0,0,1-3.76.6,8.25,8.25,0,0,1-7-3.13,12.25,12.25,0,0,1-2.36-7.6,12.55,12.55,0,0,1,2.49-8.06,8.57,8.57,0,0,1,7.13-3.12,9.51,9.51,0,0,1,4.27.91,7.2,7.2,0,0,1,2.86,2.38,11,11,0,0,1,1.48,3.16,13.27,13.27,0,0,1,.47,3.54A14.24,14.24,0,0,1,515.48,124.86Zm-14.43-2.75h10.44a6.86,6.86,0,0,0-1.31-4.21,4.49,4.49,0,0,0-3.75-1.63C503.23,116.27,501.43,118.22,501.05,122.11Z"></path><path class="cls-2" d="M524.19,134.56h-4V104.44h4Z"></path><path class="cls-2" d="M534.21,134.56h-4V104.44h4Z"></path><path class="cls-2" d="M557.39,124.86H542.84a8.25,8.25,0,0,0,1.48,5,4.69,4.69,0,0,0,3.95,1.91,5,5,0,0,0,3.14-.83,5.18,5.18,0,0,0,1.62-2.22h4.07a11,11,0,0,1-.94,2.16,10,10,0,0,1-1.58,2,7.24,7.24,0,0,1-2.68,1.6,11,11,0,0,1-3.76.6,8.23,8.23,0,0,1-7-3.13,12.19,12.19,0,0,1-2.37-7.6,12.55,12.55,0,0,1,2.49-8.06,8.59,8.59,0,0,1,7.13-3.12,9.56,9.56,0,0,1,4.28.91,7.1,7.1,0,0,1,2.85,2.38A11,11,0,0,1,557,119.6a13.27,13.27,0,0,1,.47,3.54A12.41,12.41,0,0,1,557.39,124.86ZM543,122.11H553.4a6.73,6.73,0,0,0-1.31-4.21,4.48,4.48,0,0,0-3.74-1.63Q543.54,116.27,543,122.11Z"></path><path class="cls-2" d="M262.66,184.84h-4V167.13h-3.28v-3.21h3.28v-2.38a8.61,8.61,0,0,1,1.48-5.24,5.5,5.5,0,0,1,4.73-2,8.37,8.37,0,0,1,2.38.25v3.37a7,7,0,0,0-1.72-.16,2.46,2.46,0,0,0-2.18.94,5.61,5.61,0,0,0-.66,3.12v2.1h4.11v3.21h-4.11Z"></path><path class="cls-2" d="M287,163.92v14.84c0,.71,0,1.8,0,3.26s0,2.41,0,2.82h-3.95a24.65,24.65,0,0,1-.12-3c-1.1,2.33-3.16,3.49-6.2,3.49a7,7,0,0,1-5-1.83q-1.93-1.83-1.93-5.85V163.92h4v12.86q0,5.1,4.11,5.1a4.41,4.41,0,0,0,3.86-1.62q1.15-1.63,1.15-5.41V163.92Zm-10.64-4.56h-3.46v-4.65h3.46Zm7.6,0h-3.41v-4.65H284Z"></path><path class="cls-2" d="M293,184.84V169.59c0-1,0-2.18,0-3.41s0-2,0-2.26h3.94a40.39,40.39,0,0,1,.13,4.15,7.09,7.09,0,0,1,2.63-3.35,7.63,7.63,0,0,1,4.35-1.29v4q-7,.14-7,7.48v10Z"></path><path class="cls-2" d="M318.84,184.84V156.28H323V170q.24-.28,5.55-5.67t7.84-8.09h5.22l-12.12,12,12.7,16.52h-5.14L326.56,171,323,174.28v10.56Z"></path><path class="cls-2" d="M349.25,184.84h-4V154.71h4Z"></path><path class="cls-2" d="M359.27,159.36h-4v-4.65h4Zm-4,25.48V163.92h4v20.92Z"></path><path class="cls-2" d="M365.27,184.84V169.3c0-2.43,0-4.23,0-5.38h3.86a23.75,23.75,0,0,1,.17,3.08,7,7,0,0,1,9.65-2.59A5.37,5.37,0,0,1,381,167a7.14,7.14,0,0,1,6.62-3.61,6.4,6.4,0,0,1,4.74,1.87q1.88,1.86,1.87,5.81v13.73H390.3V171.56a5.91,5.91,0,0,0-.91-3.37,3.38,3.38,0,0,0-3-1.35,4,4,0,0,0-3.47,1.58,7.52,7.52,0,0,0-1.13,4.42v12H377.8V171.73c0-3.26-1.28-4.89-3.86-4.89a4,4,0,0,0-3.49,1.7,8.09,8.09,0,0,0-1.19,4.71v11.59Z"></path><path class="cls-2" d="M415.9,170.33v9.78a26.4,26.4,0,0,0,.29,4.73h-3.82a13.63,13.63,0,0,1-.37-2.59q-1.61,3.08-6.33,3.08a6.92,6.92,0,0,1-5.28-1.89,6.32,6.32,0,0,1-1.79-4.52,5.79,5.79,0,0,1,2.57-5.16q2.56-1.69,7.33-1.7H412v-1.69c0-2.57-1.42-3.86-4.24-3.86a4.32,4.32,0,0,0-3.08.84,4.72,4.72,0,0,0-1.15,2.36h-3.9a6.82,6.82,0,0,1,2.17-4.52q1.94-1.8,6.09-1.76Q415.91,163.43,415.9,170.33Zm-3.9,5.1v-.66h-3.21q-6.07,0-6.08,3.9a3.41,3.41,0,0,0,1,2.59,3.9,3.9,0,0,0,2.83,1,6.66,6.66,0,0,0,2.86-.54,3.41,3.41,0,0,0,1.66-1.56,7,7,0,0,0,.72-2.11A16.23,16.23,0,0,0,412,175.43Z"></path><path class="cls-2" d="M421.94,184.84V169.18c0-2.44,0-4.19,0-5.26h4a28.15,28.15,0,0,1,.16,3.29q1.73-3.78,6.45-3.78a6.7,6.7,0,0,1,5.08,2q1.9,2,1.91,6v13.44h-4v-13q0-5.05-4.23-5-5.18,0-5.18,6.82v11.18Z"></path><path class="cls-2" d="M462.58,175.14H448a8.13,8.13,0,0,0,1.48,5,4.66,4.66,0,0,0,3.94,1.91,5,5,0,0,0,3.14-.82,5.41,5.41,0,0,0,1.63-2.22h4.07a11.68,11.68,0,0,1-.95,2.16,9.57,9.57,0,0,1-1.58,2,7,7,0,0,1-2.67,1.6,11.07,11.07,0,0,1-3.76.6,8.25,8.25,0,0,1-7-3.12A12.28,12.28,0,0,1,444,174.6a12.58,12.58,0,0,1,2.48-8,8.59,8.59,0,0,1,7.13-3.12,9.66,9.66,0,0,1,4.28.9,7.18,7.18,0,0,1,2.85,2.38,10.53,10.53,0,0,1,1.48,3.17,12.81,12.81,0,0,1,.48,3.53A12.14,12.14,0,0,1,462.58,175.14Zm-14.42-2.75H458.6a6.85,6.85,0,0,0-1.32-4.22,4.46,4.46,0,0,0-3.74-1.62C450.34,166.55,448.54,168.5,448.16,172.39Z"></path><path class="cls-2" d="M484.24,163.92v14.84c0,.71,0,1.8,0,3.26s0,2.41,0,2.82h-3.94a24,24,0,0,1-.13-3q-1.63,3.49-6.2,3.49a7,7,0,0,1-5-1.83q-1.94-1.83-1.94-5.85V163.92h4v12.86q0,5.1,4.11,5.1a4.39,4.39,0,0,0,3.86-1.62q1.15-1.63,1.15-5.41V163.92Z"></path><path class="cls-2" d="M488.1,167.13v-3.21h3.54v-6.08h4v6.08h4.52v3.21h-4.52V179a3.89,3.89,0,0,0,.49,2.24,2.16,2.16,0,0,0,1.85.68,6.87,6.87,0,0,0,1.72-.16v3a10.77,10.77,0,0,1-3.24.37,4.72,4.72,0,0,1-3.7-1.3,5.89,5.89,0,0,1-1.15-4V167.13Z"></path><path class="cls-2" d="M503.8,184.84V169.59c0-1,0-2.18,0-3.41s0-2,0-2.26h3.95c.08.58.12,2,.12,4.15a7.15,7.15,0,0,1,2.63-3.35,7.69,7.69,0,0,1,4.36-1.29v4q-7,.14-7,7.48v10Z"></path><path class="cls-2" d="M533.8,170.33v9.78a26.4,26.4,0,0,0,.29,4.73h-3.82a13.63,13.63,0,0,1-.37-2.59q-1.6,3.08-6.33,3.08a6.92,6.92,0,0,1-5.28-1.89,6.36,6.36,0,0,1-1.79-4.52,5.79,5.79,0,0,1,2.57-5.16c1.71-1.13,4.16-1.7,7.33-1.7h3.46v-1.69c0-2.57-1.42-3.86-4.24-3.86a4.32,4.32,0,0,0-3.08.84,4.72,4.72,0,0,0-1.15,2.36h-3.9a6.86,6.86,0,0,1,2.17-4.52q1.94-1.8,6.09-1.76Q533.81,163.43,533.8,170.33Zm-3.9,5.1v-.66h-3.21q-6.08,0-6.08,3.9a3.41,3.41,0,0,0,1,2.59,3.9,3.9,0,0,0,2.83,1,6.63,6.63,0,0,0,2.86-.54,3.41,3.41,0,0,0,1.66-1.56,7,7,0,0,0,.72-2.11A15.16,15.16,0,0,0,529.9,175.43Z"></path><path class="cls-2" d="M543.87,184.84h-4V154.71h4Z"></path><path class="cls-2" d="M553.9,159.36h-4v-4.65h4Zm-4,25.48V163.92h4v20.92Z"></path><path class="cls-2" d="M557.47,167.13v-3.21H561v-6.08h4v6.08h4.52v3.21H565V179a3.88,3.88,0,0,0,.5,2.24,2.14,2.14,0,0,0,1.85.68,6.93,6.93,0,0,0,1.72-.16v3a10.8,10.8,0,0,1-3.25.37,4.71,4.71,0,0,1-3.69-1.3,5.89,5.89,0,0,1-1.15-4V167.13Z"></path><path class="cls-2" d="M589.24,170.33v9.78a25.47,25.47,0,0,0,.29,4.73H585.7a14.54,14.54,0,0,1-.37-2.59q-1.59,3.08-6.32,3.08a7,7,0,0,1-5.29-1.89,6.35,6.35,0,0,1-1.78-4.52,5.77,5.77,0,0,1,2.57-5.16q2.57-1.69,7.33-1.7h3.45v-1.69q0-3.85-4.23-3.86a4.3,4.3,0,0,0-3.08.84,4.72,4.72,0,0,0-1.15,2.36h-3.91a6.87,6.87,0,0,1,2.18-4.52q1.93-1.8,6.08-1.76Q589.23,163.43,589.24,170.33Zm-10-11H575.8v-4.65h3.45Zm6.08,16.07v-.66h-3.2c-4.06,0-6.08,1.3-6.08,3.9a3.44,3.44,0,0,0,1,2.59,3.93,3.93,0,0,0,2.84,1,6.66,6.66,0,0,0,2.86-.54,3.46,3.46,0,0,0,1.66-1.56,7,7,0,0,0,.72-2.11A16.34,16.34,0,0,0,585.33,175.43Zm1.52-16.07h-3.41v-4.65h3.41Z"></path><path class="cls-2" d="M592.4,167.13v-3.21h3.54v-6.08h4v6.08h4.52v3.21H600V179a3.88,3.88,0,0,0,.5,2.24,2.16,2.16,0,0,0,1.85.68,6.87,6.87,0,0,0,1.72-.16v3a10.77,10.77,0,0,1-3.24.37,4.72,4.72,0,0,1-3.7-1.3,5.89,5.89,0,0,1-1.15-4V167.13Z"></path><path d="M342.39,122.42h0l-.65.16Z"></path><g class="cls-3"><path class="cls-2" d="M196.5,52.67Z"></path><path class="cls-2" d="M223.25,52.72Z"></path><path class="cls-2" d="M207.21,72.37Z"></path><path class="cls-2" d="M205.68,54.45Z"></path><path class="cls-2" d="M185.78,68.56v0l0,0v0Z"></path><path class="cls-2" d="M211.8,82.26Z"></path><path class="cls-2" d="M219.09,66.11Z"></path><path class="cls-2" d="M210.52,70.59s0,0,0,0Z"></path><path class="cls-2" d="M246.91,64.08s0,0,0,0Z"></path><path class="cls-2" d="M187.22,54.73Z"></path><path class="cls-2" d="M207.27,46v0l0,0a0,0,0,0,0,0,0A0,0,0,0,0,207.27,46Z"></path><path class="cls-2" d="M194.54,70.19s0,0,0,0Z"></path><path class="cls-2" d="M210.71,87Z"></path><path class="cls-2" d="M204.4,41.09l-.05,0v0l0,0Z"></path><path class="cls-2" d="M190,56Z"></path><path class="cls-2" d="M196.28,86.27s0,0,0,0Z"></path><path class="cls-2" d="M224.88,52.7Z"></path><path class="cls-2" d="M245.39,61.91Z"></path><path class="cls-2" d="M208.79,68.92Z"></path><path class="cls-2" d="M186.94,53c-.05,0,0,0,0,0Z"></path><path class="cls-2" d="M-44.59,128.82c10.3-.78,6.47,1.66,16.17-1.68,3-.49,6.58,0,9.42-1.34a135.85,135.85,0,0,0,24.12-3.11c1.4-1.4,4.1-.11,6.22-.74,3.45.07,6.59.51,10-.42,3-.26,6.75.54,9.7-.83,12.33-.38.64-3.66,17-4,21.42,2.15,27.28-7,30.9-2.39,1.65-.75,4.37-.06,6.42-1.25.85-.54,1.88.43,2.82-.38,3.12-2.07,14-4.53,14-4.53l11,5.11-.54-1.68,11.72-2,7.72-1.62s3.31.66,7.34,1.51c5.86,1.22,13.24,2.81,14.22,3.25.23-.27-1.31,4.5-.72,6.34l8.25,6.67s3.83,2.67,4,3.18c0,0,8.53,8.29,9.06,8.92,1.07,1.29,1.83,3.07,3,4.3s1,4.78,2,6,.58,3.94,1.89,4.68c.49.28,3.32,1.82,3.85,2A3.47,3.47,0,0,1,186.4,156c.82,1,4,4,5.25,4.26s5.11,5.24,6.51,5.66c1.57.47,2.6,4.23,3.4,4.25-.8,0,15.46,12.21,15.59,12.18,1.47-.3,3-7.72,4.47-7.61a36.68,36.68,0,0,1,3.89.52,25.1,25.1,0,0,0,3.87.47,64.38,64.38,0,0,0,7.46-.66c9.49,5.6,22,6.16,31.87,11.42,9.86,4.25,19.05,10,29.77,12.59,23.2,4.44,25.81,6,33.65,7.57,11.51,2.37,8.22-.85,7.8,8.43L242,278.68l-279.76-47C-31.4,175.63-48.94,129.46-44.59,128.82Z"></path><path class="cls-2" d="M185.49,116.82c0-.51.07-1,.09-1.55s.5-1,.28-1.49c-.14-.06-.81-.21-1-.28l-.68-.38a3.83,3.83,0,0,0-1.62-.53s-.62.37-.72.43.31.12.35.35c-1.42-.13-1.18,0-1.48.25a.62.62,0,0,0-.26.69c.07.33.3.39.71.8a9.21,9.21,0,0,0,.88,1.07,3.92,3.92,0,0,0,1.58.63,1,1,0,0,1,.43,0,2.65,2.65,0,0,0,1.33.27h.07C185.5,117,185.49,116.92,185.49,116.82Z"></path><path class="cls-2" d="M213.54,44.84Z"></path><path class="cls-2" d="M182.62,17.74Z"></path><path class="cls-2" d="M160.57,13.42v0l0,0v0Z"></path><path class="cls-2" d="M112.69,25.59Z"></path><path class="cls-2" d="M194.45,11.62s0,0,0,0Z"></path><path class="cls-2" d="M186,16Z"></path><path class="cls-2" d="M237.39,56.89s0,0,0,0Z"></path><path class="cls-2" d="M202,46.05s0,0,0,0h0s0,0,0,0Z"></path><path class="cls-2" d="M169.77,15.26Z"></path><path class="cls-2" d="M190.13,57.81l0,0,0,0,0,0Z"></path><path class="cls-2" d="M215.2,44.86Z"></path><path class="cls-2" d="M235.89,54.65Z"></path><path class="cls-2" d="M184.3,14.25Z"></path><path class="cls-2" d="M136.27,77.61s.09.11.1.17c.14.59.26,1.19.42,1.78.09.3.25.58.35.88a2.36,2.36,0,0,1,.14,1.24,1.16,1.16,0,0,0,.05.36,6.4,6.4,0,0,1,.14.63,7.54,7.54,0,0,0,1.38.92,17.6,17.6,0,0,0,2.16.9c.73.26,3.11,1.14,3.53,1.36l.11.08a5.37,5.37,0,0,0,1.94.79,2.72,2.72,0,0,0,1-.15.76.76,0,0,0,.21-.08,1.47,1.47,0,0,1,1-.11c.15,0,1.29.32,1.32.48a1.81,1.81,0,0,0,.69,1.12,1.48,1.48,0,0,1,.48.54.56.56,0,0,0,.44.28.79.79,0,0,1,.48.34.48.48,0,0,0,.65.17.27.27,0,0,1,.32,0,1.14,1.14,0,0,0,.16.15.47.47,0,0,0,.72-.09.51.51,0,0,1,.49-.26c.14,0,.28.07.41.08.36,0,.47.12.67-.24.37.25,25.93,25.75,26.72,25.24l.29-1.27c-.43.12-28-26.35-27.83-26.81,0-.12-.05-.21,0-.32a.57.57,0,0,0-.17-.69,7.09,7.09,0,0,0-1-.67,1.25,1.25,0,0,0-1-.12.23.23,0,0,1-.14,0,2.16,2.16,0,0,0-.87-.23c-.11,0-1.58-.67-1.9-.83l-.16-.1c-.13-.08-.26-.17-.4-.24s-.26-.11-.39-.18a.22.22,0,0,1-.09-.1,1.53,1.53,0,0,0-.56-.62,1.5,1.5,0,0,1-.11-.13c-.07-.07-.12-.16-.2-.2a.91.91,0,0,1-.43-.32A25.52,25.52,0,0,1,145,79.16a3.59,3.59,0,0,1-.18-.51,4.94,4.94,0,0,0,.26-.57c.14-.39.9-2.86.94-2.94.2-.4.27-4.65.3-4.71s-.74.36-.76.32c-1.77-.44.44,1.42-1.33,1s-3.29-.73-4.94-1c-.83-.16-1.67-.3-2.5-.42l-.65-.1c-.08.22-.16.43-.23.65a11.75,11.75,0,0,0-.52,2.26c0,.26,0,.53-.07.79a1.6,1.6,0,0,0,.11.81c.16.39.32.78.47,1.18a2.47,2.47,0,0,1,.13.79c-.34-.2-.61-.58-1-.57"></path><path class="cls-2" d="M191.93,118.61c-.83-1.37,2.29-2.88,1.18-4.06,0,0-3.84,0-3.84,0l-.15,0c-.14,0-.27.09-.42.11a1.17,1.17,0,0,1-1.21-.23.67.67,0,0,0-.46-.22,2.6,2.6,0,0,1-1.49-.58l-.2-.11a3.46,3.46,0,0,1-.68.53c-.75.44-1.64.59-2.4,1a.8.8,0,0,1,0,.31,1.57,1.57,0,0,0,.21.24c.57.56,1.38.78,1.91,1.37a5.05,5.05,0,0,1,.53.24,8.55,8.55,0,0,0,1.35.6,19.54,19.54,0,0,0,4.21,1,6.31,6.31,0,0,1,.85.15,1.33,1.33,0,0,0,.82,0Z"></path><path class="cls-2" d="M189.3,151.12a14.79,14.79,0,0,0,6-5.43,2.53,2.53,0,0,1,.61-.73c.9-.67,1.81-1.35,2.77-1.94s1.79-1,2.67-1.44l7.12-3.45a21.26,21.26,0,0,0,2.13-1.9,1.92,1.92,0,0,1,.48-.37,1.78,1.78,0,0,0,.75-.81c.23-.45.48-.9.71-1.36a2.21,2.21,0,0,0,.18-.51,7.27,7.27,0,0,1,.82-2,5,5,0,0,0,.66-1.69,23,23,0,0,0,.34-4.06c0-.41.06-.81.07-1.21,0-.61.06-1.22,0-1.82,0-.75-.18-1.49-.21-2.24a8.21,8.21,0,0,0-1-3.57c0-.09-.16-.19,0-.32l.23,0c.8.13,1,0,1.05-.8a4.43,4.43,0,0,1,0-.52,3.4,3.4,0,0,0-.75-2.6l-.49-.69a5.39,5.39,0,0,0,.39-2.42,2,2,0,0,0-.32-1,2.56,2.56,0,0,0-1.29-1.07,4.22,4.22,0,0,0-.45-.18,1.15,1.15,0,0,1-.88-.86.9.9,0,0,0-.39-.54,4.2,4.2,0,0,0-1.12-.46c-.55-.13-1.11-.19-1.67-.29a5,5,0,0,0-1.5,0,1.31,1.31,0,0,0-.79.31c-.32.3-.43.25-.92-.09l-.81.16a1.75,1.75,0,0,1-.8,1.66l-.32-.11a.54.54,0,0,0-.71.33,3.53,3.53,0,0,0-.17.49c-.11.36-.2.73-.31,1.08a1.2,1.2,0,0,1-.23.45c-.53.55-.53.54-.12,1.21a1.19,1.19,0,0,1-.82.9,7.91,7.91,0,0,1-.9.3c-.51.12-1,.15-1.36.66,0,0-.09.07-.14.09-.56.16-1,.67-1.56.73a.55.55,0,0,0-.32.26.71.71,0,0,1-.56.36,6.7,6.7,0,0,1-1.77.35.83.83,0,0,0-.5.14c-.33.22-1,.6-1.23.42-.13.41.1.41-.08.8-.54,1.22-1.27,2.34-1.88,3.52a1.57,1.57,0,0,0,.64.23,7.87,7.87,0,0,0,3,0,22.06,22.06,0,0,0,4.86-1.57,5,5,0,0,1,1.37-.4,15.83,15.83,0,0,0,.06,3.52c.17,1.13.49,2.24.76,3.4a2.35,2.35,0,0,1-1.65.47,5.32,5.32,0,0,0-.38-.45.67.67,0,0,0-1.15.13,3.38,3.38,0,0,0-.22.47,5.35,5.35,0,0,1-1.61.61,3.63,3.63,0,0,1-.86.08,1.11,1.11,0,0,0-1.05.48.93.93,0,0,1-.72.41c-.63.11-1.25.23-1.88.33a9.45,9.45,0,0,0-4.49,2,8.91,8.91,0,0,1-2.12,1.16,17,17,0,0,0-2.3,1.15c-1.78,1.05-3.53,2.14-5.29,3.21a4.86,4.86,0,0,1-1,.55,2.46,2.46,0,0,0-.06-.44c-.16-.51-.24-.57-.77-.52-.28,0-.81-.14-1.08,0-1.17.43-3.42-1.21-4.44-1.55s-2.81,1.21-2.67,1.33c.38.3.82.52,1.2.81s.6.52.92.76a11,11,0,0,0,1.16.76c.83.49,1.66,1,2.47,1.5s1.74,1.08,2.62,1.59a2,2,0,0,1,1.13-.79l1-.29c1.73-.49,3.46-.95,5.18-1.48a11,11,0,0,0,4.9-2.84,2.21,2.21,0,0,1,2-.68,10.11,10.11,0,0,0,1.65,0,9.9,9.9,0,0,1,2.24.16l2.4.43,2.49,1.6c-.16.17-3.52,3.65-3.65,3.8s-.46.58-.68.88l-1.33,1.83c-.31.41-.61.84-1,1.22a30,30,0,0,1-3.45,3.77,27.14,27.14,0,0,0-4.09,4c-.41.51.21-.76-1.69-.76a4.76,4.76,0,0,1-2.28-1c-.57-.57-1.17.15-1.3,0,.27,1.15-.83,3.72,0,4.64.49.56,3.45,1.08,3.9,1.68.29.38.49-1,.81-.63,0-.08.1,1.4.67.83.8-.8,2.2-2.17,1.24-1.92,0,0,1.35-.79,2.27-1.22C188.19,151.75,188.74,151.42,189.3,151.12ZM202,108.29a1.28,1.28,0,0,1,.23-1.16C202.32,107.91,202.32,107.91,202,108.29Z"></path><path class="cls-2" d="M188.89,97.86Z"></path><polygon class="cls-2" points="185.55 115.98 200.19 126.76 202.03 126.14 186.94 115.57 185.55 115.98"></polygon><path class="cls-2" d="M110.13,77.58a2.59,2.59,0,0,1-.72-.86,2.11,2.11,0,0,0-.5-.58,3.52,3.52,0,0,0-.69-.53,3.42,3.42,0,0,1-1.28-1.49c-.15-.32-.35-.61-.48-.93s-.27-.82-.4-1.23a2,2,0,0,0-.18-.57,8.17,8.17,0,0,1-1-2.09,6.51,6.51,0,0,0-.31-.72,44.63,44.63,0,0,1-1.8-4.14,4.59,4.59,0,0,0-.28-.64,42.83,42.83,0,0,1-2.38-4.74c-.24-.55-.43-1.13-.63-1.71s-.42-1.2-.63-1.8c-.29-.82-.58-1.65-.89-2.46-.21-.54-.45-1.06-.69-1.59a1.52,1.52,0,0,0-.93-.86,11.49,11.49,0,0,0-2.3-.76,2.65,2.65,0,0,1-.53-.19c.06-.19.1-.35.16-.5a6.63,6.63,0,0,0,.56-3.9,2.51,2.51,0,0,1,0-.61,13.2,13.2,0,0,0-.22-2.94,4.1,4.1,0,0,0-3.79-3.48,1.1,1.1,0,0,0-.51.09,7.33,7.33,0,0,0-2.74,2.07,3.25,3.25,0,0,0-.65,1.41c-.13.86-.27,1.72-.34,2.59a6.38,6.38,0,0,0,.28,2.41,4.26,4.26,0,0,1,.08,1.81A1.8,1.8,0,0,1,85.45,50c-.4.24-.78.5-1.17.75-.15.09-.3.16-.44.26-.73.53-1.44,1.09-2.18,1.59a3.61,3.61,0,0,0-1.57,2.78,16.79,16.79,0,0,1-.57,2.89c-.11.42-.28.82-.43,1.23a23.76,23.76,0,0,0-.76,3.21,34.43,34.43,0,0,1-.94,3.89,4.13,4.13,0,0,0-.15.5,2.67,2.67,0,0,0,.42,2.32,3.77,3.77,0,0,1,.64,1.32,8.7,8.7,0,0,0,.32.9c.59,1.45,1.19,2.89,1.79,4.34.06.13.08.3.18.39.43.37,0,.6,1.15,1.55.11.09,2.12.24,2.19.36s0,1,.08,1.26-.24.71-.18,1A14.41,14.41,0,0,1,83.58,83c-.09.38-.15.66-.21.94a3.24,3.24,0,0,0-.07,1.72,3.6,3.6,0,0,1-.16,1.53A6.87,6.87,0,0,0,83,88.59c0,.72,0,1.45,0,2.18,0,.37.1.74.08,1.11s-.25.68-.22,1a7,7,0,0,1-.54,2.79,4.12,4.12,0,0,0-.12.59c0,.26-.09.52-.16.77-.29,1.09-.63,2.17-.85,3.28a12.94,12.94,0,0,0-.1,2.07c0,.47,0,.93,0,1.39,0,.26,0,.53,0,.78.09.69.2,1.38.31,2.07a1.53,1.53,0,0,1-.16,1.09,1.15,1.15,0,0,0-.06,1.16,2.14,2.14,0,0,1,.09.34.44.44,0,0,1-.7.4c-.23-.2-10.52,5.72-10.75,5.52,0,.15-1.19,8,8.72,3.32,1.12-.53.9-1.75,1.12-.53s1.46-2.43,2-1.33A5.19,5.19,0,0,0,83.39,119a4.3,4.3,0,0,0,2.25.59c.9,0,1.8-.07,2.69-.1a27.82,27.82,0,0,1,4,.11c1.43.15,2.85.37,4.28.49a14.43,14.43,0,0,0,4.3-.19c2.72-.63,5.3-1.74,8-2.46a12.18,12.18,0,0,1-.17-2.83c0-.89,2.62-2.87,2.56-3.76s-6-1.48-6.58-1.37a1.5,1.5,0,0,1-1.49-.45,3.2,3.2,0,0,0-.7-.37,1.36,1.36,0,0,0,.46-1.73c-.08-.28-.1-.57-.17-.85s-.16-.54-.26-.91c0-.08.08-.24.12-.4a1.68,1.68,0,0,0-.12-1.19,7.06,7.06,0,0,1-.33-1,5,5,0,0,1-.23-1.71,4.27,4.27,0,0,0-.07-1.47,16,16,0,0,0,0-2.59c.08-.85-.82-3.27-.74-3.81a1.63,1.63,0,0,0-.17-.75,5.12,5.12,0,0,1-.17-2.9,3.3,3.3,0,0,0,0-1.29c-.17-.9-.26-1.83-.4-2.75a2.34,2.34,0,0,0-.17-.75c-.25-.48-.17-2.74-.33-3.32-.77-2.66-2.14-5.21-2.36-8l0,0,0-.11c0-.25,0-.51,0-.76l-.07-.13a1.16,1.16,0,0,1,0-.93,2.89,2.89,0,0,0,0-1.37,3.59,3.59,0,0,1,.07-1.63c.1-.39.17-.79.26-1.18a.86.86,0,0,1,.15-.28c.33.45.65.84.94,1.26.62.87,1.2,1.77,1.83,2.63.34.46.76.86,1.13,1.3a2.54,2.54,0,0,1,.35.89h0a8.65,8.65,0,0,0,.89,1.4,2.71,2.71,0,0,1,.55.94c.15.32.28.63.43,1l.8-.18c.06.13.12.25.17.39a3.48,3.48,0,0,0,.64,1.22.87.87,0,0,1,.24.56,2.22,2.22,0,0,0,.72.94,3.79,3.79,0,0,0,2,.59c.56,0,1.12,0,1.68,0a1.45,1.45,0,0,0,.22-1.5A1.29,1.29,0,0,0,110.13,77.58ZM83.56,73.89a3.35,3.35,0,0,0-.36-1.24,3.72,3.72,0,0,1-.23-1c-.12-1.09-.43-2.15-.64-3.22a2.52,2.52,0,0,1,0-1.28,7,7,0,0,0,.19-1,1.12,1.12,0,0,1,.33-.7,1.23,1.23,0,0,1,.15.24,5.12,5.12,0,0,0,.19.67,12.07,12.07,0,0,1,.58,3.57,1.64,1.64,0,0,1-.12.76,1.58,1.58,0,0,0-.06,1.11,11.4,11.4,0,0,1,.28,2.44A.33.33,0,0,1,83.56,73.89ZM96.08,96.26c0,.11.11.22.11.33,0,1.24.35,2.47.27,3.72a2.65,2.65,0,0,0,0,.69c.2,1,.15,2,.28,2.94a15.06,15.06,0,0,0,.44,1.85,5.66,5.66,0,0,0,.32.9.67.67,0,0,1-.21.82,3.63,3.63,0,0,1-.54-.15,4.79,4.79,0,0,0-1.79-.31c-.57,0-1.15,0-1.73,0,0,0-.06,0-.08,0a5.66,5.66,0,0,1-2.65-.17,4.07,4.07,0,0,0-2,.13c-.69.18-1.39.34-2.11.51a2.31,2.31,0,0,1-.21-1.27c.22-.16.21-.74,0-.84a2.17,2.17,0,0,1-.07-.24,5.06,5.06,0,0,0,0-.78,1.86,1.86,0,0,1,.33-1.32c.2-.35-.26-1.14-.18-1.49a2,2,0,0,0,.14-.5A2.34,2.34,0,0,1,87,99.17a.53.53,0,0,0,.07-.58c-.07-.15.73-1.24.82-1.73a2,2,0,0,1,.39-1,.46.46,0,0,0,.07-.16,10.07,10.07,0,0,1,.71-2,2,2,0,0,0,.06-1,1,1,0,0,1,.23-.88,1.78,1.78,0,0,0,.39-1.13,6.15,6.15,0,0,1,.13-.86,21.68,21.68,0,0,0,.56-2.54,5,5,0,0,1,.75-1.89l.65.28a1,1,0,0,1,.5.57c.32.9.64,1.8,1,2.68.19.46.43.89.66,1.32s.29.56.44.85a24.61,24.61,0,0,1,1.19,3.25C95.65,95,96,95.6,96.08,96.26Z"></path><path class="cls-2" d="M28.48,83.65h0Z"></path><path class="cls-2" d="M52.45,83.23c-5.77,18.41-12,34-19.59,41.61,1.71-.31,2.3-.52,2.59-.91,6-6.18,12-21.34,18.06-39.59C53.69,84.09,52.5,82.33,52.45,83.23Z"></path><path class="cls-2" d="M54.09,78.61Z"></path><path class="cls-2" d="M76.23,113.47a2.28,2.28,0,0,1-1.32.33c0-.14-.09-.29-.15-.46h-.69l-1.85-.85c-.11-.36-1.21-.69-1.35-.69a5.43,5.43,0,0,1-.69-1.89.49.49,0,0,1,.13-.38.76.76,0,0,0,.08-.93c-.14-.31-.32-.61-.46-.91-.06-.13.16-1.46.19-2,.11-1.6.13-3.21.2-4.82a11.91,11.91,0,0,1,.08-2.31s0-.06,0-.08c-.36-.47-.07-.88.13-1.28-.17-.38-.17-.38.1-1-.19-.07,0-.81,0-1.3a4.12,4.12,0,0,1-.36-.88,4.91,4.91,0,0,0-.37-.67A26.17,26.17,0,0,1,68.53,91c-.26-.59-.53-1.19-.83-1.77s-1.26-3.19-1.41-3.5c-.3-.63-3.39-6.09-3.39-6.12,0-.3-.27-2.86-.27-2.86-.25-.75-.26-7.2-.26-6.73,0,.72.36-1.06.68-1.7.07-.15.16-.3.23-.45A2,2,0,0,0,63,65.58c-.21-.24-.44-.46-.66-.69s-.37-.37-.57-.54a3.67,3.67,0,0,1-.85-2.47,2.42,2.42,0,0,0-2-2.22l-1.21-.31c-.06,0-.1-.06-.19-.11.22-.5.44-1,.68-1.5a.85.85,0,0,1,.9-.55,1.09,1.09,0,0,0,.36,0c.64-.09.82-.26.74-.88a3.09,3.09,0,0,1,.17-1.39c.15-.48.5-.4,0-1.39a1.16,1.16,0,0,1,0-1c.09-.29-.16-1.54,0-1.92,0-.08,0-.16.07-.24A.68.68,0,0,0,60,49.6a5.7,5.7,0,0,1-.54-.3,1.54,1.54,0,0,1-.43-.41c-.5-1-1.45-1.06-2.43-1.06-.35,0-.71.07-1.06.1a5.7,5.7,0,0,0-3.47,1.69,1.15,1.15,0,0,0-.25.34A3.43,3.43,0,0,1,51,51.13a2.66,2.66,0,0,1-.7.6,2.69,2.69,0,0,0-1.06,1,1.6,1.6,0,0,1-.73.7.79.79,0,0,0-.27.21c-.53.63.18.85-.54,1.2,0,.2.19.26.35.28.11.2-.09.34-.11.53l.17-.07c0,.11,0,.18,0,.21a2.5,2.5,0,0,0-.63.88,5.12,5.12,0,0,1-.64,1.08,1.44,1.44,0,0,0-.2.94c0,.07.15.14.23.22l-.49.49c.16.16.31.3.43.44s.13.37-.05.43c-.48.15-.59,1.21-.71,1.58l.29.3-.48.33c.17.36.56.4.87.58-.1.23.17.3.08.5l.33.07c.28-.3.29.06.58.07.25.21,0,.38,0,.56s.11.39.06.56.26.16.29.4c0,.43-.38.89-.3,1.5.27-.12.08-.57.53-.48a3.3,3.3,0,0,0,.1.76c.09.23-.13.56.18.68s.16.53.42.66a3.91,3.91,0,0,0-.34.68c0,.09.11.21.18.32h0c.36.22.4.63.6,1,.11,0,.25,0,.3-.12a.68.68,0,0,0,.16-.37,2,2,0,0,0-.11-.4c0-.16,0-.16.22-.56a1.46,1.46,0,0,1,.61.88c.09.66.18,1.32.26,2l.54,4.31a3.72,3.72,0,0,0,.14.74,2.16,2.16,0,0,1,0,1.62,6.62,6.62,0,0,1-.76,2.1.47.47,0,0,0,0,.4c.22.48-.48,2.23-.6,2.68-.27,1,.43.15,1,2.09.32,1.08.87,2,1.1,3.08a60.21,60.21,0,0,1,.79,6,3.29,3.29,0,0,1,0,.83,21.85,21.85,0,0,1-.56,3.77,15,15,0,0,0-.41,5.21c.18,1.88.3,3.77.43,5.66a16.81,16.81,0,0,0,.45,2.63,3,3,0,0,0,.72,1.09,2,2,0,0,0-.11,1.37c0,.12,0,.32,0,.39-.34.3-.31.7-.37,1.08a.89.89,0,0,1-.09.24,1.29,1.29,0,0,1-1.18.1c-.42-.18-1.89,1.61-1.52,2.34a3.49,3.49,0,0,0,2.35,1.49,10.16,10.16,0,0,0,2.19.32,13,13,0,0,0,2.34-.18c1.48-.24,2.92-.65,4.36-1,.35-.09.69-.17,1-.23l1.16-.19,2.37-.41A39.59,39.59,0,0,0,71,118.08c.72-.23,1.42-.49,2.11-.78a7.58,7.58,0,0,0,1.48-.82,4.06,4.06,0,0,0,1.44-2.1,7,7,0,0,0,.2-.91Zm-25.6,5.42s-.1.08-.12.07a.63.63,0,0,1-.18-.15c.07,0,.14-.1.15-.09A1.22,1.22,0,0,1,50.63,118.89Zm1.29,1.17-.23,0c0-.06,0-.12.06-.13a.21.21,0,0,1,.15,0S51.91,120,51.92,120.06Zm9.15-53.34a.08.08,0,0,1,0,0,.14.14,0,0,1,0-.06s0,0,0,0A.25.25,0,0,1,61.07,66.72Zm5.55,46.71c-.09.08-.08.27-.09.4,0,.33-.06.67-.06,1a3.9,3.9,0,0,1-.2,1.22,4,4,0,0,1-.53.16,4.58,4.58,0,0,1-.53,0,1.74,1.74,0,0,0-.52.05c-.57.22-1.12.46-1.66.69l-1.54-.41a1.88,1.88,0,0,1-.42-.14,1.35,1.35,0,0,0-1.11-.14,2.69,2.69,0,0,0-1.41-1,.32.32,0,0,1-.16-.09,6,6,0,0,0-.82-.56l-.59-.9c.16-1-.28-1.33-.1-1.44s0-.6-.16-.59a1.19,1.19,0,0,1-.4-.86,1.08,1.08,0,0,0-.08-.73,1,1,0,0,1,0-.81,3.19,3.19,0,0,0,.13-.81c0-1-.08-1.94-.09-2.91s0-1.67,0-2.5a2.65,2.65,0,0,1,.14-1,1.79,1.79,0,0,0,.14-1,2.19,2.19,0,0,1,.51-1.55c.1-.14.21-.26.11-.45s0-.19.13-.26a.47.47,0,0,0,.24-.22A8.49,8.49,0,0,0,58,97.31c.13-.6.17-1.21.25-1.81s.09-.55.18-1.15c.14-.85.31-1.7.43-2.55s.17-1.59.27-2.39a2.78,2.78,0,0,1,.2-.52c.2.2.35.33.47.47,1.16,1.4,2.27,2.83,3.47,4.19.85,1,1.63,1.33,2.28,2.4A2.78,2.78,0,0,1,66,97.7c-.09.86-.12,1.72-.19,2.57a12.78,12.78,0,0,0,.23,3.65,10.49,10.49,0,0,1,.15,1.24c.08,1.08.15,2.16.23,3.24a2.42,2.42,0,0,0,0,.25c0,.44.11.88.15,1.32a4.85,4.85,0,0,0,.3,1.88.36.36,0,0,1,0,.25C66.8,112.53,67,113.05,66.62,113.43Zm7.43-.06a.83.83,0,0,1-.08.12l-.06,0-.07,0a.31.31,0,0,1,.08-.11A.3.3,0,0,1,74.05,113.37Z"></path><path class="cls-2" d="M59.12,59.73a2.52,2.52,0,0,1,1.25.59c.29.36.58.71.85,1.08.41.56.72,1.79,1.11,2.36L63.19,65c.27.39.53.8.83,1.18a33.39,33.39,0,0,0,2.8,3.14,3.57,3.57,0,0,1,.34.43c.72,1,1.42,1.92,2.23,2.8a6,6,0,0,1,.39.49A6.73,6.73,0,0,0,71,74.45a2.12,2.12,0,0,1,.45.4c.18.29.24.07.44.35s.38.25.56.46a2.7,2.7,0,0,0,1.29.88,3.48,3.48,0,0,1,.63.26,1.75,1.75,0,0,1,.51.34,1.83,1.83,0,0,0,.72.51,1,1,0,0,1,.5.45,1.15,1.15,0,0,1,.14,1.19c-.43.11-.86.24-1.29.33a3,3,0,0,1-1.69,0,1.67,1.67,0,0,1-.74-.57.73.73,0,0,0-.3-.38,2.76,2.76,0,0,1-.75-.81c-.06-.09-.13-.17-.2-.26-.2.1-1,.51-1.18.3a2,2,0,0,0-.62-.61,7,7,0,0,1-1-.89h0a2,2,0,0,0-.45-.61c-.37-.26-.78-.48-1.13-.76-.66-.53-1.29-1.1-1.94-1.64-.31-.26-3-2.07-3.1-2.09"></path><path class="cls-2" d="M51.59,60.56,52.15,66l-1.06,4-1.28,4.87,3,4.65L52,82.22c-.07-.08-.14-.4-.2-.49-.3-.45-1.63-.55-2.08-.92a.85.85,0,0,1-.17-.25l-1.71-2.82a6.55,6.55,0,0,1-.32-.58A2.61,2.61,0,0,0,47,76.3a1.69,1.69,0,0,1-.52-1.53c0-.12,0-.24.07-.35a22.43,22.43,0,0,0,.36-2.7,14,14,0,0,1,.28-2.23c.07-.28.16-.57.21-.86A32.3,32.3,0,0,0,48,65.14c0-.79-.2,0,.47-.49.5-.4,1-.82,1.47-1.23a3.21,3.21,0,0,1,.3-.21A7.28,7.28,0,0,0,51.58,61Z"></path><path class="cls-2" d="M127.1,78.61c-8.95-.08-46.4-.64-51.67-1.44-6.92.09-13.23,3.42-23.53,1.89l-.38,1.67c10.35,1.48,17-2.35,23.11-2.4,5.79.73,42.81,1.39,51.8,1.3Z"></path><path class="cls-2" d="M210.81,135.3s-2.82,27.29-3.11,30.4c-1,11.15,3.47,17,4.67,17.3s-1.36-.48-1.36-.48-5.38-3.69-4.83-15.61c.06-1.27,3.12-31.43,3.12-31.43"></path><path class="cls-2" d="M108.24,108.4a4.06,4.06,0,0,1,.94-1c.07,0,.53-.43.52-.44a2.11,2.11,0,0,0,.37-.53,1.3,1.3,0,0,0,.11-.37s.21-1.18.3-1.72,1.1-1.5,1.07-1.64c0,0,.9-2.53,1.39-3.78a11.31,11.31,0,0,1,1-1.71c.27-.45.54-.9.83-1.33.09-.12,1.64-1.83,1.64-1.83.2,0,.77-1.29,1.37-1.66.24-.14.36-.43.54-.64l1-1.09a11.44,11.44,0,0,0,.87-1.25c.39-1.12.71-2.07,1-3,0,0,.08-.58.06-.74l1.25-2.93-.08,0,.24-.65.53.1c1.18.21,2.34.47,3.5.76s2.33.64,3.47,1,2.21.78,3.27,1.25c.75.33,1.48.68,2.18,1.07l-1.82-.19a14.14,14.14,0,0,0-2.63,1.05l-1.62.95a1.82,1.82,0,0,0-.38.29c-.51.51-1,1-1.52,1.54l0,0c-.6.76-1.17,1.55-1.82,2.28a25.39,25.39,0,0,1-2.63,2.66,13.64,13.64,0,0,0-2.61,2.71,22.38,22.38,0,0,1-2.21,3,38.88,38.88,0,0,0-2.58,3.74c-.16.21-.15.51-.27.75-.36.79-.74,1.57-1.14,2.39l-.68-.08a7.15,7.15,0,0,0,0,1.85c0,.12,0,.24,0,.35a.29.29,0,0,0,0,.16,5.15,5.15,0,0,0,.12,1,5.35,5.35,0,0,1,.32,1.88,1.55,1.55,0,0,1,0,.23,6.81,6.81,0,0,1-.36.58,2.32,2.32,0,0,1-.62.39,6.15,6.15,0,0,1-.76-.06l-1.76-.29-.23,0s-.27-.29-.33-.25a6,6,0,0,1-1-1.16,6.43,6.43,0,0,1-.75-1.42,3.92,3.92,0,0,1-.28-1.34c0-.09,0-.33,0-.34A4.33,4.33,0,0,0,108.24,108.4Z"></path><path class="cls-2" d="M143.62,93.74l-.07.62A17.85,17.85,0,0,0,143,96.8c-.27,1.73-.47,3.48-.72,5.23-.07.49-.26,1-.3,1.46-.08,1-.09,2-.12,3a7.33,7.33,0,0,1,0,1c-.08.49-.24,1-.36,1.46h0a3.18,3.18,0,0,0,.09,1.62,2.31,2.31,0,0,0,.55.85l0,0a7.42,7.42,0,0,1,.89.69l.21.11.79.34c.68.09,1.35.17,2,.28a1.78,1.78,0,0,1,.62.26c.26.15.5.33.76.49a21.44,21.44,0,0,0,4.22-.32l0,0,.5-.09a2.1,2.1,0,0,0,.26-1,2,2,0,0,0,0-.24,6.31,6.31,0,0,0-.78-.39l-.51-.22c0,.06-.17,0-.22-.1a7.76,7.76,0,0,1-1-.47l-.09-.06-1.73-.62.16-.23c-.46-.47-1.38-.35-1.56-1.19l.07,0-.25-.21a.27.27,0,0,1-.14,0l.07,0a2.68,2.68,0,0,1-.28-.3,3.28,3.28,0,0,1-.34.31v-.84a1.94,1.94,0,0,0,.34-.53,21.79,21.79,0,0,1,1.33-4.77,30.18,30.18,0,0,1,.81-3.25,23.33,23.33,0,0,1,.94-3.54,14.47,14.47,0,0,0,.73-3.21c.25-1.39-.17-2-1.47-2.59a12.73,12.73,0,0,1-1.56-1c-.38-.25-.78-.48-1.25-.76A26.56,26.56,0,0,1,143,86.26l-.93-.61c.15-.15-3.11-1-.92-4.57a16.52,16.52,0,0,0,1.51-2.59c.58-1.07,1.13-2.09,1.7-3.1a2,2,0,0,1,.49-.59c-2.57,2,.92-6.22.8-2.18,0-1,.72-1.73.76-2.67a13,13,0,0,0-.26-1.94,1.85,1.85,0,0,1,.64-.25c.27,0,.75,0,1.8,0l.5,0-1-1.4c.32-.1-.3,0,0-.08.61-.45.13-.82,0-1.26-.17-.6-1-.69-1.35-1,.36-.62.29-.8.95-.6a2.76,2.76,0,0,0,1.27.12,1.1,1.1,0,0,0,.74-.65,7.66,7.66,0,0,1,.7-1.51,2.74,2.74,0,0,0,.62-.07,12.08,12.08,0,0,0,.28-1.65c.06,0,.4-1.07.63-1.17.79-.35-.07-4.07-.91-4.39,0,0-4.4-3.12-6.87-.83a3.17,3.17,0,0,0-1.29,2.67c-.08.45-.64,2.67-.41,3.4-.13.05-.77-.28-.92-.35s-.83,1.54-.65,1.6l-.21.4c-.59-.17-1.18-.35-1.78-.51a1.31,1.31,0,0,0-.39,0h0l-.93,0s-2.3.42-2.3.45l.13,0-1.51.64a.76.76,0,0,0-.25.18,10.65,10.65,0,0,0-.94,1c-.33.4-.58.87-.91,1.27-.54.67-1.12,1.3-1.68,2-.33.39-.64.81-1.07,1.35a5.72,5.72,0,0,0-1.82,2.59c-.56,1.21.06,2.21.42,3.27a12.21,12.21,0,0,0-.56,1.51,1.46,1.46,0,0,1-.15.46,5.63,5.63,0,0,1-.37.62,27.46,27.46,0,0,0-2.26,2.26c-.28.38-.61.73-.91,1.09s-1,.71-1,1.24.88,1.53.8,1.64-1.06,1.52-1.05,1.53c-.1,1,.11,2.79-.16,3.2,0,0,2.18-1.39,2.21-1.37,1,.5-.67-2.34.33-1.76s2,1.23,3,1.9-.52.45.36,1.2,0,.93.65,1.7C131.58,89.48,141.47,93.08,143.62,93.74Zm7.51,18.47.08,0,.14.31-.08,0Zm-4.19,1,0-.07.37.19,0,.09Zm-4.46-2,0,0,.13.11,0,0Zm1.53-8.12,0,0,.1.13,0,0Z"></path><path class="cls-2" d="M223.33,130.88a.75.75,0,0,0-.24-.41c-.41-.34-.13-1.19-.15-1.28-.11-.53-.23-1.07-.35-1.6-.38.06-.5.23-.46.52a8.72,8.72,0,0,0,.26,2.28c.05.12-.38,2.84-.57,4.05a32.61,32.61,0,0,0,1,3.57c.23.66-.49,1.19-.59.86-.3-1-1-3.06-1.06-3.11a.88.88,0,0,0-.27,1,4.88,4.88,0,0,1,.14,1.21c0,.25-.07.51-.41.55-.13-.35.33-.68-.12-1a3.38,3.38,0,0,1-1.66,1.53,9.63,9.63,0,0,1-2.18.92,10.73,10.73,0,0,1-2.33,0c0,.08-.42-.13-.83,0a6.09,6.09,0,0,1-.61-1,7.8,7.8,0,0,1-.55-1.3,8.82,8.82,0,0,1-.31-1.69,9.09,9.09,0,0,0-.53-2.93A9.56,9.56,0,0,0,210,131a4.53,4.53,0,0,1-1.28-2.58,13.64,13.64,0,0,1,0-1.43c0-.6,0-1.21,0-1.82,0-1.17-.23-2.35-.27-3.52a10.77,10.77,0,0,1,.33-3.25,5.59,5.59,0,0,1,1.56-2.65,16.18,16.18,0,0,1,2.17-1.6c.44-.06,2-.3,2.43-.39a1.47,1.47,0,0,1,1.86.78c.18.35.35.35.7.12.69-.46,1.15-.28,1.37.5a3.19,3.19,0,0,0,.83,1.58c.33.28.28.6.15,1a1.64,1.64,0,0,0,.64,2c.08.06.17.11.24.17a1.16,1.16,0,0,1,.18,1.85,10.71,10.71,0,0,0,1.24,1.75c.49.08.65.35.77.8a12.19,12.19,0,0,1,0,1.34,23.1,23.1,0,0,0,.69,2.48,17.85,17.85,0,0,1,.61,3.06C224.21,131.32,223.45,131.32,223.33,130.88Z"></path></g><path class="cls-2" d="M233.82,80.18c-2.07,1-4.24,1.76-6.31,2.75a112.31,112.31,0,1,1-11.24-22,40.72,40.72,0,0,1,4.1-2.81c.54-.33,1.1-.63,1.68-.92a118.42,118.42,0,1,0,11.77,22.94Z"></path><path class="cls-2" d="M234.3,69.53a8.35,8.35,0,0,1-8.45,8.71A8,8,0,0,1,217.4,70a8.33,8.33,0,0,1,8.38-8.7A8.1,8.1,0,0,1,234.3,69.53Zm-13.66.3c0,3.24,2.14,5.64,5.19,5.61,3.24,0,5.32-2.39,5.29-5.76,0-2.67-1.76-5.7-5.38-5.67C222.37,64,220.61,66.65,220.64,69.83Z"></path><path class="cls-4" d="M52.38,172.47,49,171.63l-.36-23,3.42.85c0,1.95-.08,4.5-.11,7.65s-.06,5.67-.09,7.56-.09,3.22-.17,4h0q.76-1.56,4.45-8.18T61,151.7l3.08.77q.24,16.47.07,19.16h0q.75-1.69,2.43-4.8t4-7.13c1.52-2.68,2.44-4.31,2.76-4.92l3.14.79-11.6,20-3.39-.85q0-1.62-.08-6.12t-.09-7.78c0-2.18,0-3.7,0-4.57h0c-.34.73-.92,1.85-1.73,3.36s-1.57,2.88-2.26,4.11l-2.78,4.88Z"></path><path class="cls-4" d="M87,169.48l-1.85,7.39a20.12,20.12,0,0,0-.67,3.62l-2.89-.72a10,10,0,0,1,.21-2q-1.8,2-5.37,1.13a5.4,5.4,0,0,1-3.63-2.42,5,5,0,0,1-.5-3.76,4.51,4.51,0,0,1,2.92-3.41,10.26,10.26,0,0,1,5.86.1l2.61.65.32-1.28q.72-2.91-2.47-3.71a3.34,3.34,0,0,0-2.49,0,3.68,3.68,0,0,0-1.32,1.57l-2.95-.74a5.32,5.32,0,0,1,2.5-3c1.2-.67,2.85-.73,4.93-.19Q88.31,164.26,87,169.48Zm-3.92,3.11.13-.5-2.42-.6q-4.6-1.16-5.34,1.8a2.68,2.68,0,0,0,.29,2.15,3.05,3.05,0,0,0,2,1.28,5.28,5.28,0,0,0,2.26.14,2.76,2.76,0,0,0,1.55-.87,5.59,5.59,0,0,0,.94-1.46A12.31,12.31,0,0,0,83.09,172.59Z"></path><path class="cls-4" d="M88.83,181.58l3-11.83c.46-1.85.78-3.17,1-4l3,.75a19.54,19.54,0,0,1-.5,2.51,5,5,0,0,1,5.59-1.63,5.17,5.17,0,0,1,3.46,2.47,6.5,6.5,0,0,1,.32,4.87l-2.54,10.15-3-.76,2.44-9.78q1-3.83-2.24-4.62-3.91-1-5.2,4.18l-2.11,8.45Z"></path><path class="cls-4" d="M122.62,165.83l3,.76-4.58,18.33c-.48,1.94-.84,3.43-1.08,4.45l-3-.74a17.36,17.36,0,0,1,.41-2.17c-1.24,1.47-3.08,1.9-5.5,1.29a6,6,0,0,1-4.24-3.43,9.43,9.43,0,0,1-.32-6.32,9.58,9.58,0,0,1,3.45-5.6,6.51,6.51,0,0,1,5.77-1.07q3.39.85,3.87,3Zm-12,12.87a7,7,0,0,0,.1,4.45,3.66,3.66,0,0,0,2.59,2.23,4.89,4.89,0,0,0,2.29.09,3.14,3.14,0,0,0,1.64-1,6.7,6.7,0,0,0,1.09-1.69,15.87,15.87,0,0,0,.75-2.27,8.49,8.49,0,0,0,.2-4.38c-.33-1-1.3-1.77-2.89-2.17a3.86,3.86,0,0,0-3.57.73A7.31,7.31,0,0,0,110.6,178.7Z"></path><path class="cls-4" d="M139.3,186.39l-11-2.74a6.36,6.36,0,0,0,.19,4,3.63,3.63,0,0,0,2.62,2.19,4,4,0,0,0,2.53,0,4.1,4.1,0,0,0,1.64-1.37l3.08.77a9,9,0,0,1-1.12,1.45,7.32,7.32,0,0,1-1.58,1.22,5.37,5.37,0,0,1-2.32.71,8.49,8.49,0,0,1-3-.26,6.42,6.42,0,0,1-4.71-3.68,9.53,9.53,0,0,1-.35-6.19,9.73,9.73,0,0,1,3.4-5.62,6.67,6.67,0,0,1,6-1,7.33,7.33,0,0,1,3,1.49,5.46,5.46,0,0,1,1.71,2.34,8.22,8.22,0,0,1,.52,2.67,11.66,11.66,0,0,1-.69,4Zm-10.38-4.8,7.88,2a5.25,5.25,0,0,0-.2-3.43,3.44,3.44,0,0,0-2.51-1.93Q130.45,177.29,128.92,181.59Z"></path><path class="cls-4" d="M140.91,194.59l2.88-11.53q.3-1.17.63-2.58c.22-.93.36-1.5.41-1.71l3,.75q-.08.67-.69,3.15a5.56,5.56,0,0,1,2.62-2,6,6,0,0,1,3.54-.16l-.76,3q-5.29-1.23-6.69,4.33L144,195.35Z"></path><path class="cls-4" d="M166.66,193.23l-11-2.75a6.36,6.36,0,0,0,.19,4,3.59,3.59,0,0,0,2.62,2.19,3.83,3.83,0,0,0,2.53,0,4,4,0,0,0,1.64-1.37l3.08.77a8.59,8.59,0,0,1-1.12,1.45,7.59,7.59,0,0,1-1.58,1.23,5.51,5.51,0,0,1-2.32.7,8.57,8.57,0,0,1-3-.26,6.4,6.4,0,0,1-4.7-3.68,9.53,9.53,0,0,1-.35-6.19,9.76,9.76,0,0,1,3.4-5.62,6.65,6.65,0,0,1,6-1,7.31,7.31,0,0,1,3.06,1.49,5.58,5.58,0,0,1,1.71,2.34,8.22,8.22,0,0,1,.52,2.67,9.71,9.71,0,0,1-.31,2.76A10.48,10.48,0,0,1,166.66,193.23Zm-10.39-4.81,7.89,2A5.25,5.25,0,0,0,164,187a3.47,3.47,0,0,0-2.52-1.93Q157.81,184.13,156.27,188.42Z"></path><path class="cls-4" d="M168.27,201.42l2.88-11.52c.2-.79.4-1.65.63-2.59s.36-1.5.41-1.71l3,.75c0,.45-.28,1.5-.69,3.16a5.58,5.58,0,0,1,2.62-2,6,6,0,0,1,3.54-.15l-.76,3q-5.3-1.23-6.69,4.33l-1.88,7.52Z"></path><path class="cls-4" d="M106.49,135.18l-2.94,11.74-2.42-.6a13.41,13.41,0,0,1,.38-2.84c-1.81,1.72-4.27,2.2-7.38,1.42a8.94,8.94,0,0,1-6.29-4.8,12.24,12.24,0,0,1-.56-8.46,12.61,12.61,0,0,1,4.71-7.5,9.54,9.54,0,0,1,8.28-1.3,9.89,9.89,0,0,1,5.61,3.35,7.54,7.54,0,0,1,1.62,5.49l-3.2-.8c-.17-2.86-1.75-4.66-4.76-5.41a5.92,5.92,0,0,0-5.69,1.12,11,11,0,0,0-3.18,5.73,12.51,12.51,0,0,0-.37,4.27,6.89,6.89,0,0,0,1.43,3.59,6.16,6.16,0,0,0,3.5,2.16q5.77,1.44,7.38-5l.06-.22-5.81-1.45.68-2.73Z"></path><path class="cls-4" d="M108.06,148.05l2.87-11.52c.2-.79.41-1.65.63-2.59s.36-1.5.41-1.71l3,.75a32.1,32.1,0,0,1-.7,3.16,5.56,5.56,0,0,1,2.63-2,6,6,0,0,1,3.53-.15l-.75,3q-5.31-1.23-6.69,4.33l-1.88,7.52Z"></path><path class="cls-4" d="M133.47,142.75l-1.85,7.39a20.12,20.12,0,0,0-.67,3.62l-2.89-.72a10,10,0,0,1,.21-2q-1.8,2-5.37,1.13a5.38,5.38,0,0,1-3.63-2.43,5,5,0,0,1-.5-3.75,4.5,4.5,0,0,1,2.91-3.41,10.37,10.37,0,0,1,5.87.09l2.61.66.32-1.28q.72-2.91-2.47-3.72a3.37,3.37,0,0,0-2.49.06,3.68,3.68,0,0,0-1.32,1.57l-3-.74a5.32,5.32,0,0,1,2.5-3c1.2-.67,2.85-.73,4.93-.19Q134.77,137.53,133.47,142.75Zm-3.92,3.11.13-.5-2.42-.6q-4.61-1.15-5.34,1.8a2.68,2.68,0,0,0,.29,2.15,3.05,3.05,0,0,0,2,1.28,5.28,5.28,0,0,0,2.26.14,2.76,2.76,0,0,0,1.55-.87,5.59,5.59,0,0,0,.94-1.46A12.31,12.31,0,0,0,129.55,145.86Z"></path><path class="cls-4" d="M151.35,134.68l3,.76-4.57,18.32c-.49,1.94-.85,3.43-1.08,4.45l-3-.74a16,16,0,0,1,.41-2.17q-1.87,2.2-5.5,1.29a6,6,0,0,1-4.24-3.43,9.35,9.35,0,0,1-.32-6.31,9.61,9.61,0,0,1,3.44-5.61,6.57,6.57,0,0,1,5.78-1.07q3.38.86,3.86,3Zm-12,12.86a6.91,6.91,0,0,0,.09,4.45,3.68,3.68,0,0,0,2.6,2.23,4.72,4.72,0,0,0,2.28.09,3,3,0,0,0,1.65-1,6.24,6.24,0,0,0,1.08-1.69,13.71,13.71,0,0,0,.75-2.27A8.24,8.24,0,0,0,148,145c-.33-1.05-1.29-1.78-2.88-2.18a3.89,3.89,0,0,0-3.57.73A7.28,7.28,0,0,0,139.33,147.54Z"></path></svg></div></a></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4a31c8a elementor-widget elementor-widget-jet-inline-svg" data-id="4a31c8a" data-element_type="widget" data-widget_type="jet-inline-svg.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-inline-svg jet-elements"><div class="jet-inline-svg__wrapper"><a class="jet-inline-svg jet-inline-svg--custom-width" href="https://boku.ac.at/"><div class="jet-inline-svg__inner"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 113.1 54.2" enable-background="new 0 0 113.1 54.2" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M4.9,47.9v2.7c0,0.6,0,0.8,0.1,1.1c0.2,0.4,0.6,0.4,0.9,0.4c1,0,1-0.6,1-1.5v-2.8h1v2.6
+			c0,0.9,0,1.4-0.3,1.8C7.2,52.9,6.5,53,6,53c-2.1,0-2.1-1.3-2.1-2.4v-2.7H4.9z"/>
+		<path fill="#FFFFFF" d="M11.3,51c0-0.6,0-1.1-0.6-1.1c-0.3,0-0.6,0.2-0.7,0.4c-0.1,0.2-0.1,0.6-0.1,0.9v1.6h-1v-3.6h0.9v0.5h0
+			c0.4-0.5,0.8-0.6,1.2-0.6c0.2,0,0.5,0,0.8,0.3c0.4,0.3,0.4,0.8,0.4,1.2v2.3h-1V51z"/>
+		<path fill="#FFFFFF" d="M13.2,47.9h1v0.9h-1V47.9z M13.2,49.2h1v3.6h-1V49.2z"/>
+		<path fill="#FFFFFF" d="M14.6,49.2h1l0.7,1.8l0.2,0.6h0c0-0.1,0.1-0.2,0.1-0.3l0.1-0.3l0.7-1.8h1L17,52.9h-0.9L14.6,49.2z"/>
+		<path fill="#FFFFFF" d="M21.9,51.9c-0.1,0.2-0.4,1.1-1.6,1.1c-0.3,0-1.2,0-1.5-0.9c-0.2-0.3-0.2-0.7-0.2-1c0-1,0.5-1.9,1.7-1.9
+			c1.4,0,1.7,1.1,1.7,2.2h-2.4c0,0.4,0.2,0.9,0.8,0.9c0.4,0,0.6-0.3,0.6-0.5L21.9,51.9z M21,50.7c0-0.8-0.6-0.8-0.7-0.8
+			c-0.5,0-0.7,0.4-0.7,0.8H21z"/>
+		<path fill="#FFFFFF" d="M22.7,52.9v-3.6h0.9v0.5h0c0.2-0.3,0.4-0.6,0.8-0.6c0.2,0,0.5,0.1,0.6,0.2l-0.3,0.8
+			c-0.1,0-0.3-0.2-0.4-0.2c-0.6,0-0.6,0.7-0.6,1.7v1.1H22.7z"/>
+		<path fill="#FFFFFF" d="M26.1,51.7c0.1,0.5,0.5,0.6,0.8,0.6c0.1,0,0.7,0,0.7-0.4c0-0.2-0.2-0.3-0.4-0.3c-1.1-0.2-1.9-0.4-1.9-1.3
+			c0-0.8,0.8-1.1,1.5-1.1c0.9,0,1.4,0.2,1.6,1l-0.9,0.2c-0.1-0.4-0.5-0.4-0.7-0.4c-0.2,0-0.7,0-0.7,0.3c0,0.1,0.1,0.2,0.2,0.2
+			c0.2,0.1,0.6,0.2,0.8,0.2c0.6,0.2,1.4,0.3,1.4,1.1c0,0.6-0.5,1.2-1.7,1.2c-0.4,0-0.9-0.1-1.4-0.4c-0.3-0.2-0.4-0.5-0.4-0.7
+			L26.1,51.7z"/>
+		<path fill="#FFFFFF" d="M29.3,48.7h1v-0.9h-1V48.7z M29.3,52.9h1v-3.6h-1V52.9z"/>
+		<path fill="#FFFFFF" d="M32.9,50h-0.7v1.5c0,0.5,0,0.7,0.3,0.7c0.1,0,0.2,0,0.4-0.1l0,0l0.1,0.7c-0.3,0.1-0.7,0.1-0.8,0.1
+			c-0.3,0-0.7-0.1-0.8-0.4c-0.1-0.2-0.1-0.4-0.1-1V50h-0.4v-0.8h0.4v-0.7l1-0.6v1.3h0.7V50z"/>
+		<path fill="#FFFFFF" d="M33.4,50.2c0.2-0.6,0.5-1,1.6-1c1.5,0,1.5,0.7,1.5,1.4c0,0.2,0,1.2,0,1.4c0,0.5,0.1,0.6,0.2,0.9h-0.9
+			c0,0,0-0.1-0.1-0.2l-0.1-0.2c-0.2,0.2-0.5,0.5-1.1,0.5c-0.7,0-1.2-0.4-1.2-1.1c0-0.9,0.8-1,1.3-1.1c0.5-0.1,0.7-0.2,0.9-0.2v-0.1
+			c0-0.2,0-0.5-0.7-0.5c-0.5,0-0.6,0.3-0.6,0.5L33.4,50.2z M33.9,47.9h0.8v0.8h-0.8V47.9z M35.6,51.1c-0.1,0-0.2,0.1-0.4,0.1
+			c0,0-0.3,0.1-0.3,0.1c-0.2,0-0.6,0.1-0.6,0.5c0,0.2,0.2,0.5,0.5,0.5c0.2,0,0.4-0.1,0.6-0.2c0.2-0.2,0.2-0.4,0.2-0.7V51.1z
+			 M35.3,47.9h0.8v0.8h-0.8V47.9z"/>
+		<path fill="#FFFFFF" d="M39.1,50h-0.7v1.5c0,0.5,0,0.7,0.3,0.7c0.1,0,0.2,0,0.4-0.1l0,0l0.1,0.7c-0.3,0.1-0.7,0.1-0.8,0.1
+			c-0.3,0-0.7-0.1-0.8-0.4c-0.1-0.2-0.1-0.4-0.1-1V50h-0.4v-0.8h0.4v-0.7l1-0.6v1.3h0.7V50z"/>
+		<path fill="#FFFFFF" d="M41.9,49.2V49c0-0.4,0-1.2,1.1-1.2c0.2,0,0.5,0,0.8,0.1l-0.1,0.7c-0.2,0-0.4-0.1-0.4-0.1
+			c-0.4,0-0.4,0.3-0.4,0.5v0.3h0.7V50h-0.7v2.9h-1V50h-0.5v-0.8H41.9z"/>
+		<path fill="#FFFFFF" d="M46.5,52.3L46.5,52.3c-0.3,0.4-0.7,0.6-1.2,0.6c-0.4,0-0.8-0.2-1-0.5c-0.2-0.3-0.2-0.5-0.2-0.9v-2.3h1v1.7
+			c0,0.8,0,0.9,0.1,1.1c0.1,0.2,0.3,0.2,0.5,0.2c0.3,0,0.5-0.1,0.7-0.4c0.1-0.1,0.1-0.3,0.1-1v-1.5h1v3.6h-0.9V52.3z M44.6,47.9h0.8
+			v0.8h-0.8V47.9z M46,47.9h0.8v0.8H46V47.9z"/>
+		<path fill="#FFFFFF" d="M48.3,52.9v-3.6h0.9v0.5h0c0.2-0.3,0.4-0.6,0.8-0.6c0.2,0,0.5,0.1,0.6,0.2l-0.3,0.8
+			c-0.1,0-0.3-0.2-0.4-0.2c-0.6,0-0.6,0.7-0.6,1.7v1.1H48.3z"/>
+		<path fill="#FFFFFF" d="M55,47.9c0.7,0,1.1,0,1.4,0.3c0.3,0.2,0.5,0.6,0.5,1c0,0.4-0.2,0.9-0.7,1.1c0.9,0.3,1,0.9,1,1.2
+			c0,0.5-0.3,1.1-0.8,1.3c-0.3,0.1-0.6,0.1-1.7,0.1H53v-5H55z M54,48.7v1.1h1.1c0.3,0,0.9,0,0.9-0.6c0-0.2-0.1-0.5-0.4-0.5
+			c-0.1,0-0.3,0-1,0H54z M54,50.7V52H55c0.2,0,0.6,0,0.8-0.1c0.4-0.1,0.4-0.4,0.4-0.6c0-0.7-0.6-0.7-1.3-0.7H54z"/>
+		<path fill="#FFFFFF" d="M59.7,49.2c1.3,0,1.9,1,1.9,1.9c0,1-0.7,1.9-1.9,1.9c-0.6,0-1.9-0.3-1.9-1.9
+			C57.8,50.1,58.4,49.2,59.7,49.2z M59.7,52.2c0.4,0,0.9-0.3,0.9-1.1c0-0.7-0.4-1.1-0.9-1.1c-0.5,0-0.9,0.3-0.9,1.1
+			C58.8,51.8,59.2,52.2,59.7,52.2z"/>
+		<path fill="#FFFFFF" d="M64.8,52.9v-0.5h0c-0.4,0.5-0.9,0.6-1.1,0.6c-0.8,0-1.5-0.6-1.5-1.9c0-1.3,0.7-1.9,1.5-1.9
+			c0.6,0,0.9,0.3,1.1,0.5v-1.8h1v5H64.8z M63.9,49.9c-0.7,0-0.8,0.8-0.8,1.2c0,0.9,0.4,1.1,0.8,1.1c0.1,0,0.3,0,0.5-0.2
+			c0.2-0.2,0.3-0.5,0.3-1C64.7,50.2,64.4,49.9,63.9,49.9z"/>
+		<path fill="#FFFFFF" d="M69.7,51.9c-0.1,0.2-0.4,1.1-1.6,1.1c-0.3,0-1.2,0-1.5-0.9c-0.2-0.3-0.2-0.7-0.2-1c0-1,0.5-1.9,1.7-1.9
+			c1.4,0,1.7,1.1,1.7,2.2h-2.4c0,0.4,0.2,0.9,0.8,0.9c0.4,0,0.6-0.3,0.6-0.5L69.7,51.9z M68.8,50.7c0-0.8-0.6-0.8-0.7-0.8
+			c-0.5,0-0.7,0.4-0.7,0.8H68.8z"/>
+		<path fill="#FFFFFF" d="M72.8,51c0-0.6,0-1.1-0.6-1.1c-0.3,0-0.6,0.2-0.7,0.4c-0.1,0.2-0.1,0.6-0.1,0.9v1.6h-1v-3.6h0.9v0.5h0
+			c0.4-0.5,0.8-0.6,1.2-0.6c0.2,0,0.5,0,0.8,0.3c0.4,0.3,0.4,0.8,0.4,1.2v2.3h-1V51z"/>
+		<path fill="#FFFFFF" d="M74.8,47.9h1v2.7l1.1-1.3H78l-1.2,1.3l1.3,2.3h-1l-0.9-1.6l-0.4,0.5v1.2h-1V47.9z"/>
+		<path fill="#FFFFFF" d="M81.1,52.3L81.1,52.3c-0.3,0.4-0.7,0.6-1.2,0.6c-0.4,0-0.8-0.2-1-0.5c-0.2-0.3-0.2-0.5-0.2-0.9v-2.3h1v1.7
+			c0,0.8,0,0.9,0.1,1.1c0.1,0.2,0.3,0.2,0.5,0.2c0.3,0,0.5-0.1,0.7-0.4c0.1-0.1,0.1-0.3,0.1-1v-1.5h1v3.6h-0.9V52.3z"/>
+		<path fill="#FFFFFF" d="M83,47.9h1v5h-1V47.9z"/>
+		<path fill="#FFFFFF" d="M86.6,50h-0.7v1.5c0,0.5,0,0.7,0.3,0.7c0.1,0,0.2,0,0.4-0.1l0,0l0.1,0.7C86.3,52.9,86,53,85.9,53
+			c-0.3,0-0.7-0.1-0.8-0.4c-0.1-0.2-0.1-0.4-0.1-1V50h-0.4v-0.8H85v-0.7l1-0.6v1.3h0.7V50z"/>
+		<path fill="#FFFFFF" d="M89.6,52.3L89.6,52.3c-0.3,0.4-0.7,0.6-1.2,0.6c-0.4,0-0.8-0.2-1-0.5c-0.2-0.3-0.2-0.5-0.2-0.9v-2.3h1v1.7
+			c0,0.8,0,0.9,0.1,1.1c0.1,0.2,0.3,0.2,0.5,0.2c0.3,0,0.5-0.1,0.7-0.4c0.1-0.1,0.1-0.3,0.1-1v-1.5h1v3.6h-0.9V52.3z"/>
+		<path fill="#FFFFFF" d="M91.5,52.9v-3.6h0.9v0.5h0c0.2-0.3,0.4-0.6,0.8-0.6c0.2,0,0.5,0.1,0.6,0.2l-0.3,0.8
+			c-0.1,0-0.3-0.2-0.4-0.2c-0.6,0-0.6,0.7-0.6,1.7v1.1H91.5z"/>
+		<path fill="#FFFFFF" d="M95.7,47.9h1l0.7,3.4h0l0.9-3.4h1.2l0.9,3.5h0l0.8-3.5h1l-1.2,5H100l-1-3.7h0l-1,3.7h-1.1L95.7,47.9z"/>
+		<path fill="#FFFFFF" d="M102.8,47.9h1v0.9h-1V47.9z M102.8,49.2h1v3.6h-1V49.2z"/>
+		<path fill="#FFFFFF" d="M107.8,51.9c-0.1,0.2-0.4,1.1-1.6,1.1c-0.3,0-1.2,0-1.5-0.9c-0.2-0.3-0.2-0.7-0.2-1c0-1,0.5-1.9,1.7-1.9
+			c1.4,0,1.7,1.1,1.7,2.2h-2.4c0,0.4,0.2,0.9,0.8,0.9c0.4,0,0.6-0.3,0.6-0.5L107.8,51.9z M106.9,50.7c0-0.8-0.6-0.8-0.7-0.8
+			c-0.5,0-0.7,0.4-0.7,0.8H106.9z"/>
+		<path fill="#FFFFFF" d="M111,51c0-0.6,0-1.1-0.6-1.1c-0.3,0-0.6,0.2-0.7,0.4c-0.1,0.2-0.1,0.6-0.1,0.9v1.6h-1v-3.6h0.9v0.5h0
+			c0.4-0.5,0.8-0.6,1.2-0.6c0.2,0,0.5,0,0.8,0.3c0.4,0.3,0.4,0.8,0.4,1.2v2.3h-1V51z"/>
+	</g>
+	<path fill="#5EB63C" d="M11.5,26.1c0.7-0.2,0.5-0.9,0.5-1.1v-2.2c0-0.8-0.1-1.1-0.9-1.1h-0.5v4.5h0.5
+		C11.2,26.1,11.4,26.1,11.5,26.1z M11.6,19.7c0.5-0.1,0.5-0.5,0.5-1v-1.8c0,0,0-0.3-0.1-0.5c-0.2-0.5-0.8-0.4-0.8-0.4h-0.5v3.7h0.5
+		C11.4,19.7,11.4,19.7,11.6,19.7z M3.8,21.1c0,9.5,7.7,17.2,17.2,17.2V26c-0.2,0.9-0.8,2.2-2.8,2.2c-0.4,0-1.7,0-2.4-1.1
+		c-0.6-0.8-0.6-1.9-0.6-3.9v-4c0-1.2,0-2,0.1-2.6c0.1-0.8,0.5-2.5,2.9-2.5c1.7,0,2.3,0.8,2.6,1.5c0.1,0.2,0.2,0.5,0.2,0.7V3.9
+		C11.5,3.9,3.8,11.6,3.8,21.1z M13.6,14.8c0.7,0.6,0.7,1.5,0.8,2.4v0.7c0,1.1-0.1,1.6-0.4,2.1c-0.3,0.4-0.7,0.5-0.9,0.6
+		c0.5,0.2,0.7,0.4,0.9,0.6c0.4,0.5,0.4,1.2,0.4,2.4v0.9c0,0.9,0,2-0.7,2.7C13,28,12,28,11.1,28H8.4V14.2h3
+		C12.2,14.2,12.9,14.2,13.6,14.8z M21,1.2C10,1.2,1.1,10.1,1.1,21.1C1.1,32,10,40.9,21,40.9c10.9,0,19.8-8.9,19.8-19.8
+		C40.8,10.1,31.9,1.2,21,1.2z M21,39.8c-10.3,0-18.7-8.4-18.7-18.7C2.3,10.8,10.7,2.4,21,2.4c10.3,0,18.7,8.4,18.7,18.7
+		C39.7,31.4,31.3,39.8,21,39.8z M18.1,26.3c0.8,0,0.7-0.9,0.7-1v-8.5c0-0.1,0-0.2,0-0.3c0-0.2-0.1-0.7-0.7-0.7c-0.7,0-0.7,1-0.7,1
+		v8.5C17.4,25.4,17.4,26.3,18.1,26.3z M28.3,14.2h-2.2l-1.7,6v-6h-2.3V28h2.3v-6.6l1.9,6.6h2.3l-2.1-7.2L28.3,14.2z M32.5,14.2v11.2
+		c0,0.1,0,0.9-0.7,0.9c-0.7,0-0.7-1-0.7-1V14.2h-2.3v10.1c0,1.5,0.1,2.1,0.5,2.8c0.6,0.9,1.5,1.1,2.5,1.1c1.5,0,2.2-0.7,2.5-1.3
+		c0.4-0.7,0.4-1.5,0.4-2.3V14.2H32.5z"/>
+</g>
+</svg>
+</div></a></div></div>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7312075 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="7312075" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;1576931&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}],&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eaa3598" data-id="eaa3598" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2a45b09 elementor-widget elementor-widget-text-editor" data-id="2a45b09" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				©BOKU Kompetenzberatungfür Klimaneutralität. <strong>Alle Rechte vorbehalten.</strong> <a href="../impressum.html">Impressum</a> | <a href="../datenschutz.html">Datenschutz</a>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+		</footer><div class="jupiterx-corner-buttons" data-jupiterx-scroll="{&quot;offset&quot;:1000}"><button class="jupiterx-scroll-top jupiterx-icon-angle-up" data-jupiterx-scroll-target="0"></button></div></div><template id="tp-language" data-tp-language="de_AT"></template><!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">Wir verwenden Cookies für eine bessere Benutzererfahrung.</div><div class="cli-bar-btn_container"><a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button" style="margin:0px 5px 0px 0px">Cookie Settings</a><a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept All</a></div></div></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Schließen</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Privacy Overview</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Mehr anzeigen" role="button" data-readmore-text="Mehr anzeigen" data-readless-text="Weniger anzeigen"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+								Necessary							</a>
+															<div class="wt-cli-necessary-checkbox">
+									<input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked"  />
+									<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+								</div>
+								<span class="cli-necessary-caption">immer aktiv</span>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessary">
+								<div class="wt-cli-cookie-description">
+									Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Dauer</th><th class="cookielawinfo-column-4">Beschreibung</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table>								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+								Functional							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox"  data-id="checkbox-functional" />
+									<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Aktiviert" data-cli-disable="Deaktiviert"><span class="wt-cli-sr-only">Functional</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="functional">
+								<div class="wt-cli-cookie-description">
+									Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+								Performance							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox"  data-id="checkbox-performance" />
+									<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Aktiviert" data-cli-disable="Deaktiviert"><span class="wt-cli-sr-only">Performance</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="performance">
+								<div class="wt-cli-cookie-description">
+									Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+								Analytics							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox"  data-id="checkbox-analytics" />
+									<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Aktiviert" data-cli-disable="Deaktiviert"><span class="wt-cli-sr-only">Analytics</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analytics">
+								<div class="wt-cli-cookie-description">
+									Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+								Advertisement							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox"  data-id="checkbox-advertisement" />
+									<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Aktiviert" data-cli-disable="Deaktiviert"><span class="wt-cli-sr-only">Advertisement</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="advertisement">
+								<div class="wt-cli-cookie-description">
+									Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+								Others							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox"  data-id="checkbox-others" />
+									<label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Aktiviert" data-cli-disable="Deaktiviert"><span class="wt-cli-sr-only">Others</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="others">
+								<div class="wt-cli-cookie-description">
+									Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all-->        <div id="trp-floater-ls" onclick="" data-no-translation class="trp-language-switcher-container trp-floater-ls-flags trp-top-right trp-color-dark" >
+            <div id="trp-floater-ls-current-language" class="">
+
+                <a href="../index.html@p=929.html#" class="trp-floater-ls-disabled-language trp-ls-disabled-language" onclick="event.preventDefault()">
+					<img class="trp-flag-image" src="../wp-content/plugins/translatepress-multilingual/assets/images/flags/de_AT.png" width="18" height="12" alt="de_AT" title="German">				</a>
+
+            </div>
+            <div id="trp-floater-ls-language-list" class="" >
+
+                <div class="trp-language-wrap"><a href="../index.html@p=929.html#" class="trp-floater-ls-disabled-language trp-ls-disabled-language" onclick="event.preventDefault()"><img class="trp-flag-image" src="../wp-content/plugins/translatepress-multilingual/assets/images/flags/de_AT.png" width="18" height="12" alt="de_AT" title="German"></a>                    <a href="../en/index.html@p=929.html"
+                         title="English">
+          						  <img class="trp-flag-image" src="../wp-content/plugins/translatepress-multilingual/assets/images/flags/en_GB.png" width="18" height="12" alt="en_GB" title="English">					          </a>
+                </div>            </div>
+        </div>
+
+    					<script type="text/x-template" id="mobile-menu-item-template"><li
+	:id="'jet-mobile-menu-item-'+itemDataObject.itemId"
+	:class="itemClasses"
+>
+	<div
+		class="jet-mobile-menu__item-inner"
+		tabindex="1"
+		:aria-label="itemDataObject.name"
+		v-on:click="itemSubHandler"
+		v-on:keyup.enter="itemSubHandler"
+	>
+		<a
+			:class="itemLinkClasses"
+			:href="itemDataObject.url"
+			:rel="itemDataObject.xfn"
+			:title="itemDataObject.attrTitle"
+			:target="itemDataObject.target"
+		>
+			<div class="jet-menu-item-wrapper">
+				<div
+					class="jet-menu-icon"
+					v-if="isIconVisible"
+					v-html="itemIconHtml"
+				></div>
+				<div class="jet-menu-name">
+					<span
+						class="jet-menu-label"
+						v-html="itemDataObject.name"
+					></span>
+					<small
+						class="jet-menu-desc"
+						v-if="isDescVisible"
+						v-html="itemDataObject.description"
+					></small>
+				</div>
+				<div
+					class="jet-menu-badge"
+					v-if="isBadgeVisible"
+				>
+					<div class="jet-menu-badge__inner" v-html="itemDataObject.badgeContent"></div>
+				</div>
+			</div>
+		</a>
+		<span
+			class="jet-dropdown-arrow"
+			v-if="isSub && !templateLoadStatus"
+			v-html="dropdownIconHtml"
+			v-on:click="markerSubHandler"
+		>
+		</span>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="templateLoadStatus"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient id="linear-gradient">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+	</div>
+
+	<transition name="menu-container-expand-animation">
+		<mobile-menu-list
+			v-if="isDropdownLayout && subDropdownVisible"
+			:depth="depth+1"
+			:children-object="itemDataObject.children"
+		></mobile-menu-list>
+	</transition>
+
+</li>
+					</script>					<script type="text/x-template" id="mobile-menu-list-template"><div
+	class="jet-mobile-menu__list"
+	role="navigation"
+>
+	<ul class="jet-mobile-menu__items">
+		<mobile-menu-item
+			v-for="(item, index) in childrenObject"
+			:key="item.id"
+			:item-data-object="item"
+			:depth="depth"
+		></mobile-menu-item>
+	</ul>
+</div>
+					</script>					<script type="text/x-template" id="mobile-menu-template"><div
+	:class="instanceClass"
+	v-on:keyup.esc="escapeKeyHandler"
+>
+	<div
+		class="jet-mobile-menu__toggle"
+		ref="toggle"
+		tabindex="1"
+		aria-label="Open/Close Menu"
+		v-on:click="menuToggle"
+		v-on:keyup.enter="menuToggle"
+	>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="toggleLoaderVisible"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient id="linear-gradient">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="!menuOpen && !toggleLoaderVisible"
+			v-html="toggleClosedIcon"
+		></div>
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="menuOpen && !toggleLoaderVisible"
+			v-html="toggleOpenedIcon"
+		></div>
+		<span
+			class="jet-mobile-menu__toggle-text"
+			v-if="toggleText"
+			v-html="toggleText"
+		></span>
+
+	</div>
+
+	<transition name="cover-animation">
+		<div
+			class="jet-mobile-menu-cover"
+			v-if="menuContainerVisible && coverVisible"
+			v-on:click="closeMenu"
+		></div>
+	</transition>
+
+	<transition :name="showAnimation">
+		<div
+			class="jet-mobile-menu__container"
+			v-if="menuContainerVisible"
+		>
+			<div
+				class="jet-mobile-menu__container-inner"
+			>
+				<div
+					class="jet-mobile-menu__header-template"
+					v-if="headerTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__header-template-content"
+						ref="header-template-content"
+						v-html="headerContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__controls"
+				>
+					<div
+						class="jet-mobile-menu__breadcrumbs"
+						v-if="isBreadcrumbs"
+					>
+						<div
+							class="jet-mobile-menu__breadcrumb"
+							v-for="(item, index) in breadcrumbsPathData"
+							:key="index"
+						>
+							<div
+								class="breadcrumb-label"
+								v-on:click="breadcrumbHandle(index+1)"
+								v-html="item"
+							></div>
+							<div
+								class="breadcrumb-divider"
+								v-html="breadcrumbIcon"
+								v-if="(breadcrumbIcon && index !== breadcrumbsPathData.length-1)"
+							></div>
+						</div>
+					</div>
+					<div
+						class="jet-mobile-menu__back"
+						ref="back"
+						tabindex="1"
+						aria-label="Close Menu"
+						v-if="!isBack && isClose"
+						v-html="closeIcon"
+						v-on:click="menuToggle"
+						v-on:keyup.enter="menuToggle"
+					></div>
+					<div
+						class="jet-mobile-menu__back"
+						ref="back"
+						tabindex="1"
+						aria-label="Back to Prev Items"
+						v-if="isBack"
+						v-html="backIcon"
+						v-on:click="goBack"
+						v-on:keyup.enter="goBack"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__before-template"
+					v-if="beforeTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__before-template-content"
+						ref="before-template-content"
+						v-html="beforeContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__body"
+				>
+					<transition :name="animation">
+						<mobile-menu-list
+							v-if="!templateVisible"
+							:key="depth"
+							:depth="depth"
+							:children-object="itemsList"
+						></mobile-menu-list>
+						<div
+							class="jet-mobile-menu__template"
+							ref="template-content"
+							v-if="templateVisible"
+						>
+							<div
+								class="jet-mobile-menu__template-content"
+								v-html="itemTemplateContent"
+							></div>
+						</div>
+					</transition>
+				</div>
+
+				<div
+					class="jet-mobile-menu__after-template"
+					v-if="afterTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__after-template-content"
+						ref="after-template-content"
+						v-html="afterContent"
+					></div>
+				</div>
+
+			</div>
+		</div>
+	</transition>
+</div>
+					</script><link rel='stylesheet' id='komp-app-style-css'  href='../wp-content/plugins/kompensations-app/css/app.css@ver=6.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='komp-app-chunk-vendors-style-css'  href='../wp-content/plugins/kompensations-app/css/chunk-vendors.css@ver=6.0.1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-table-css'  href='../wp-content/plugins/cookie-law-info/public/css/cookie-law-info-table.css@ver=2.1.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css'  href='../wp-content/plugins/elementor/assets/lib/animations/animations.min.css@ver=3.7.2.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-content/themes/jupiterx-child/assets/js/script.js@ver=6.0.1' id='jupiterx-child-js'></script>
+<script type='text/javascript' src='../wp-includes/js/underscore.min.js@ver=1.13.3' id='underscore-js'></script>
+<script type='text/javascript' id='jupiterx-js-extra'>
+/* <![CDATA[ */
+var jupiterxOptions = {"smoothScroll":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/themes/jupiterx/lib/assets/dist/js/frontend.min.js@ver=2.0.5' id='jupiterx-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/jet-menu/assets/public/lib/vue/vue.min.js@ver=2.6.11' id='jet-vue-js'></script>
+<script type='text/javascript' id='jet-menu-public-scripts-js-extra'>
+/* <![CDATA[ */
+var jetMenuPublicSettings = {"version":"2.2.0","ajaxUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-admin\/admin-ajax.php","isMobile":"false","getElementorTemplateApiUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-json\/jet-menu-api\/v2\/get-elementor-template-content","getBlocksTemplateApiUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-json\/jet-menu-api\/v2\/get-blocks-template-content","menuItemsApiUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-json\/jet-menu-api\/v2\/get-menu-items","restNonce":"b489e1c51d","devMode":"false","wpmlLanguageCode":"","menuSettings":{"jetMenuRollUp":"true","jetMenuMouseleaveDelay":500,"jetMenuMegaWidthType":"container","jetMenuMegaWidthSelector":"","jetMenuMegaOpenSubType":"hover","jetMenuMegaAjax":"false"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jet-menu/assets/public/js/legacy/jet-menu-public-scripts.js@ver=2.2.0' id='jet-menu-public-scripts-js'></script>
+<script type='text/javascript' id='jet-menu-public-scripts-js-after'>
+function CxCSSCollector(){"use strict";var t,e=window.CxCollectedCSS;void 0!==e&&((t=document.createElement("style")).setAttribute("title",e.title),t.setAttribute("type",e.type),t.textContent=e.css,document.head.appendChild(t))}CxCSSCollector();
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/smartmenus/jquery.smartmenus.min.js@ver=1.1.0' id='jupiterx-core-raven-smartmenus-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/url-polyfill/url-polyfill.min.js@ver=1.1.7' id='jupiterx-core-raven-url-polyfill-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/kompensations-app/js/chunk-vendors.js@ver=2' id='komp-app-chunk-vendors-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/kompensations-app/js/app.js@ver=2' id='komp-app-js-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js@ver=3.7.2' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend-modules.min.js@ver=3.7.2' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/core.min.js@ver=1.13.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js@ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js@ver=3.7.2' id='share-link-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js@ver=4.9.0' id='elementor-dialog-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.2","is_static":false,"experimentalFeatures":{"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","active_breakpoints":["viewport_mobile","viewport_tablet"],"lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":929,"title":"CO2%20kompensieren%20%E2%80%93%20Klimaneutralit%C3%A4t%20BOKU","excerpt":"","featuredImage":false}};
+</script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend.min.js@ver=3.7.2' id='elementor-frontend-js'></script>
+<script type='text/javascript' id='jet-elements-js-extra'>
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jet-elements/assets/js/jet-elements.min.js@ver=2.6.6' id='jet-elements-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/jet-menu/includes/elementor/assets/public/js/legacy/widgets-scripts.js@ver=2.2.0' id='jet-menu-elementor-widgets-scripts-js'></script>
+<script type='text/javascript' id='jet-tabs-frontend-js-extra'>
+/* <![CDATA[ */
+var JetTabsSettings = {"ajaxurl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/xn--klimaneutralitt-elb.boku.ac.at\/wp-json\/jet-tabs-api\/v1\/elementor-template","devMode":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js@ver=2.1.17' id='jet-tabs-frontend-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/jet-tricks/assets/js/lib/tippy/popperjs.js@ver=2.5.2' id='jet-tricks-popperjs-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/jet-tricks/assets/js/lib/tippy/tippy-bundle.js@ver=6.3.1' id='jet-tricks-tippy-bundle-js'></script>
+<script type='text/javascript' id='jet-tricks-frontend-js-extra'>
+/* <![CDATA[ */
+var JetTricksSettings = {"elements_data":{"sections":{"5ec3678":{"view_more":false,"particles":"false","particles_json":null},"284b6c5":{"view_more":false,"particles":"false","particles_json":null},"a7a5d2b":{"view_more":false,"particles":"false","particles_json":null},"ff6d166":{"view_more":false,"particles":"false","particles_json":null},"4ce99dd":{"view_more":false,"particles":"false","particles_json":null},"7312075":{"view_more":false,"particles":"false","particles_json":null}},"columns":[],"widgets":{"b3ca446":[],"66f0157":[],"379fb1d":[],"5898f48":[],"2a1f82b":[],"31ea98b":[],"55e6149":[],"500e058":[],"cdd3c56":[],"d3b868d":[],"ac1d88d":[],"45dd618":[],"6e72195":[],"1a0854f":[],"1bff47d":[],"9b61466":[],"1dc8bb4":[],"32dda84":[],"a0e2d93":[],"4a31c8a":[],"2a45b09":[]}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jet-tricks/assets/js/jet-tricks-frontend.js@ver=1.4.1' id='jet-tricks-frontend-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/preloaded-modules.min.js@ver=3.7.2' id='preloaded-modules-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-includes/js/wp-util.min.js@ver=6.0.1' id='wp-util-js'></script>
+<script type='text/javascript' id='jupiterx-core-raven-frontend-js-extra'>
+/* <![CDATA[ */
+var ravenFormsTranslations = {"validation":{"required":"Please fill in this field","invalidEmail":"The value is not a valid email address","invalidPhone":"The value should only consist numbers and phone characters (-, +, (), etc)","invalidNumber":"The value is not a valid number","invalidMaxValue":"Value must be less than or equal to MAX_VALUE","invalidMinValue":"Value must be greater than or equal to MIN_VALUE"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/js/frontend.min.js@ver=6.0.1' id='jupiterx-core-raven-frontend-js'></script>
+<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js@ver=4.1.4' id='flatpickr-js'></script>
+<script type="text/javascript">
+		(function() {
+			document.body.className = document.body.className.replace('no-js','js');
+		}());
+	</script>
+	</body></html>
